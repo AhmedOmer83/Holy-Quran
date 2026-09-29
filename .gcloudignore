@@ -1,0 +1,19 @@
+.gcloudignore
+.git
+.gitignore
+.venv
+**/__pycache__
+website/test-artifacts
+website/tests
+metadata-report
+quran-audit
+Arabic_Poetry_Dataset.csv
+Thesis.pdf
+Script.R
+poetry-source-comparison.md
+Cross Era Authors Corpus 2000w 2s/Arabic
+Cross Era Authors Corpus 2000w 2s/English
+Cross Era Authors Corpus 2000w 2s/Quran
+Cross Era Authors Corpus 2000w 2s/.RData
+Cross Era Authors Corpus 2000w 2s/.Rhistory
+Cross Era Authors Corpus 2000w 2s/summary.md

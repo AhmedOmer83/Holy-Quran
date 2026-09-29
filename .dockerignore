@@ -1,0 +1,17 @@
+.git
+.venv
+**/__pycache__
+website/tests
+website/test-artifacts
+website/.venv
+metadata-report
+quran-audit
+Arabic_Poetry_Dataset.csv
+Thesis.pdf
+Script.R
+poetry-source-comparison.md
+Cross Era Authors Corpus 2000w 2s/Arabic
+Cross Era Authors Corpus 2000w 2s/English
+Cross Era Authors Corpus 2000w 2s/Quran
+Cross Era Authors Corpus 2000w 2s/.RData
+Cross Era Authors Corpus 2000w 2s/.Rhistory

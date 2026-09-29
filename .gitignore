@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.venv/
+website/.venv/
+website/test-artifacts/
+
+# Local credentials and editor settings.
+.env
+.env.*
+!.env.example
+.idea/
+*.iml
+
+# Local research inputs; the application uses the bundled corpora and indices.
+/Arabic_Poetry_Dataset.csv
+/Thesis.pdf
+/Q_ip.odt

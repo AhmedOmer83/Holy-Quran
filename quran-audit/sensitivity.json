@@ -1,0 +1,866 @@
+[
+  {
+    "feature_set": "words",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "words",
+      "ngram": 1,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.387060944599789,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.38699412484909623,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.387060944599789,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [],
+    "removed_features": [],
+    "changed_retained_frequencies": 4,
+    "max_absolute_frequency_change": 0.00042857142857142877,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9999975314914831,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "word2",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "wordgrams",
+      "ngram": 2,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.5977581779729271,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.5979886585114375,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.5977581779729271,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "الحياة الدنيا",
+      "لا يؤمنون",
+      "يوم القيامة"
+    ],
+    "removed_features": [
+      "الحياه الدنيا",
+      "لا يومنون",
+      "يوم القيامه"
+    ],
+    "changed_retained_frequencies": 62,
+    "max_absolute_frequency_change": 0.0015716530932990426,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9999899412481172,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char1",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 1,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.4876860617778277,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 30
+    },
+    "corrected_only": {
+      "silhouette": 0.5525936988227312,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 33
+    },
+    "shared_legacy": {
+      "silhouette": 0.4876860617778277,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 30
+    },
+    "added_features": [
+      "ؤ",
+      "ئ",
+      "ة"
+    ],
+    "removed_features": [],
+    "changed_retained_frequencies": 60,
+    "max_absolute_frequency_change": 0.008102588140757358,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9998723838751928,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char2",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 2,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.41671806532502875,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.411019407069382,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.41671806532502875,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "ور"
+    ],
+    "removed_features": [
+      "ره"
+    ],
+    "changed_retained_frequencies": 320,
+    "max_absolute_frequency_change": 0.006564492065644922,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9996405028181771,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char3",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 3,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.39659392792652604,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.4053556545455883,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.39659392792652604,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "اب "
+    ],
+    "removed_features": [
+      "ره "
+    ],
+    "changed_retained_frequencies": 250,
+    "max_absolute_frequency_change": 0.0033478773908509644,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9991928095770807,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char5",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 5,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.4556475093724957,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.45139011313255645,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.4556475093724957,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      " ان ت",
+      "ي الح"
+    ],
+    "removed_features": [
+      " المو",
+      "يه ال"
+    ],
+    "changed_retained_frequencies": 256,
+    "max_absolute_frequency_change": 0.0010124303954103155,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.998573074517748,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char7",
+    "fold": true,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 7,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": true,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.6263156030723295,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.6243755407815805,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.6263156030723295,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [],
+    "removed_features": [],
+    "changed_retained_frequencies": 19,
+    "max_absolute_frequency_change": 0.0002944404293476806,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9998970913464291,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "words",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "words",
+      "ngram": 1,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.387060944599789,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.48800682701753834,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.387060944599789,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "أن",
+      "أو",
+      "إلا",
+      "إلى",
+      "إن",
+      "الأرض",
+      "على"
+    ],
+    "removed_features": [
+      "الارض",
+      "اله",
+      "انه",
+      "فلم",
+      "مع",
+      "واذا",
+      "ولقد"
+    ],
+    "changed_retained_frequencies": 545,
+    "max_absolute_frequency_change": 0.023714285714285716,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9788991863006795,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "word2",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "wordgrams",
+      "ngram": 2,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.5977581779729271,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.6301518216475266,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.5977581779729271,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "آمنوا وعملوا",
+      "أن الله",
+      "أيها الذين",
+      "إلا أن",
+      "إلا من",
+      "إن الذين",
+      "إن الله",
+      "إن في",
+      "إن كنتم",
+      "الحياة الدنيا",
+      "الذين آمنوا",
+      "السماوات والأرض",
+      "الله إن",
+      "الله على",
+      "الله ورسوله",
+      "حتى إذا",
+      "على الله",
+      "على كل",
+      "فإن الله",
+      "في الأرض",
+      "لا يؤمنون",
+      "من شيء",
+      "يا أيها",
+      "يوم القيامة"
+    ],
+    "removed_features": [
+      "الا ما",
+      "الحياه الدنيا",
+      "الذين امنوا",
+      "السماوات والارض",
+      "الله ان",
+      "الله علي",
+      "الم تر",
+      "الي الله",
+      "امنوا وعملوا",
+      "ان الذين",
+      "ان الله",
+      "ان في",
+      "ان كنتم",
+      "ايها الذين",
+      "علي الله",
+      "علي من",
+      "فان الله",
+      "في الارض",
+      "قبل ان",
+      "لا يومنون",
+      "وان كان",
+      "وان لم",
+      "يا ايها",
+      "يوم القيامه"
+    ],
+    "changed_retained_frequencies": 722,
+    "max_absolute_frequency_change": 0.006286612373196171,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9529886555471863,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char1",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 1,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.4876860617778277,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 30
+    },
+    "corrected_only": {
+      "silhouette": 0.6451147199236079,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 37
+    },
+    "shared_legacy": {
+      "silhouette": 0.4876860617778277,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 30
+    },
+    "added_features": [
+      "آ",
+      "أ",
+      "ؤ",
+      "إ",
+      "ئ",
+      "ة",
+      "ى"
+    ],
+    "removed_features": [],
+    "changed_retained_frequencies": 110,
+    "max_absolute_frequency_change": 0.0527768195929631,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9985428398715043,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char2",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 2,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.41671806532502875,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.47741706196074146,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.41671806532502875,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      " أ",
+      "ور"
+    ],
+    "removed_features": [
+      "او",
+      "ره"
+    ],
+    "changed_retained_frequencies": 587,
+    "max_absolute_frequency_change": 0.028592864288096036,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9997248984131266,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char3",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 3,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.39659392792652604,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.46603404869476733,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.39659392792652604,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      "اب ",
+      "الر",
+      "وم ",
+      "يل "
+    ],
+    "removed_features": [
+      " ام",
+      "ره ",
+      "ك ا",
+      "وان"
+    ],
+    "changed_retained_frequencies": 980,
+    "max_absolute_frequency_change": 0.00925334148442493,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9845299863537809,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char5",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 5,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.4556475093724957,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.4860714580537818,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.4556475093724957,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      " إلا ",
+      " السم",
+      " المن",
+      " على ",
+      " فلا ",
+      " فما ",
+      " من ب",
+      "ا الم",
+      "ذا ما",
+      "ل من ",
+      "م في ",
+      "ي الح"
+    ],
+    "removed_features": [
+      " الار",
+      " المو",
+      " ان ي",
+      " فان ",
+      " والا",
+      "ا الا",
+      "ا الي",
+      "ا ان ",
+      "الارض",
+      "لارض ",
+      "لله ا",
+      "ن الا"
+    ],
+    "changed_retained_frequencies": 1577,
+    "max_absolute_frequency_change": 0.0026955675976101153,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9513913923697984,
+    "shared_legacy_exactly_reproduces_baseline": true
+  },
+  {
+    "feature_set": "char7",
+    "fold": false,
+    "config": {
+      "eras": [
+        "Quran",
+        "PreIslamic",
+        "Umayyad",
+        "Abbasid",
+        "Andalusian"
+      ],
+      "feature": "chargrams",
+      "ngram": 7,
+      "top": 100,
+      "words": 7000,
+      "samples": 10,
+      "seed": 42,
+      "fold": false,
+      "distance": "delta",
+      "linkage": "average",
+      "view": "samples",
+      "target": "Quran"
+    },
+    "before": {
+      "silhouette": 0.6263156030723295,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "corrected_only": {
+      "silhouette": 0.6473856432675207,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "shared_legacy": {
+      "silhouette": 0.6263156030723295,
+      "branch_purity": 1.0,
+      "branch_separate": true,
+      "feature_count": 100
+    },
+    "added_features": [
+      " آمنوا ",
+      " إن الل",
+      " الأرض ",
+      " الله ف",
+      " بالله ",
+      " على ال",
+      " في الأ",
+      " ما كان",
+      " من كل ",
+      "إن الله",
+      "الذين آ",
+      "ذين آمن",
+      "في الأر",
+      "لذين آم",
+      "ن آمنوا",
+      "ي الأرض",
+      "ين آمنو"
+    ],
+    "removed_features": [
+      " الا ال",
+      " امنوا ",
+      " ان الل",
+      " ايها ا",
+      "ا الي ا",
+      "ا ان ال",
+      "الذين ا",
+      "الله وا",
+      "ان الله",
+      "ايها ال",
+      "ذين امن",
+      "في الار",
+      "لذين ام",
+      "ن امنوا",
+      "ي الارض",
+      "ي الله ",
+      "ين امنو"
+    ],
+    "changed_retained_frequencies": 910,
+    "max_absolute_frequency_change": 0.0021413849407104046,
+    "changed_normalized_samples": 10,
+    "tree_cophenetic_spearman": 0.9351852632598481,
+    "shared_legacy_exactly_reproduces_baseline": true
+  }
+]

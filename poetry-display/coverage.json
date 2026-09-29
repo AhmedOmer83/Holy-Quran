@@ -1,0 +1,72 @@
+{
+  "PreIslamic": {
+    "source_words": 184301,
+    "matched_words": 140588,
+    "coverage_percent": 76.28,
+    "passages": 1830,
+    "ambiguous_passages_excluded": 2
+  },
+  "Mukhadramun": {
+    "source_words": 278603,
+    "matched_words": 222279,
+    "coverage_percent": 79.78,
+    "passages": 3111,
+    "ambiguous_passages_excluded": 18
+  },
+  "Umayyad": {
+    "source_words": 508136,
+    "matched_words": 443922,
+    "coverage_percent": 87.36,
+    "passages": 5674,
+    "ambiguous_passages_excluded": 19
+  },
+  "Abbasid": {
+    "source_words": 2249567,
+    "matched_words": 54459,
+    "coverage_percent": 2.42,
+    "passages": 2360,
+    "ambiguous_passages_excluded": 2
+  },
+  "Andalusian": {
+    "source_words": 845642,
+    "matched_words": 609028,
+    "coverage_percent": 72.02,
+    "passages": 4556,
+    "ambiguous_passages_excluded": 0
+  },
+  "Fatimid": {
+    "source_words": 1035056,
+    "matched_words": 821027,
+    "coverage_percent": 79.32,
+    "passages": 6764,
+    "ambiguous_passages_excluded": 6
+  },
+  "Ayyubid": {
+    "source_words": 826263,
+    "matched_words": 653015,
+    "coverage_percent": 79.03,
+    "passages": 5479,
+    "ambiguous_passages_excluded": 2
+  },
+  "Mamluk": {
+    "source_words": 863468,
+    "matched_words": 512571,
+    "coverage_percent": 59.36,
+    "passages": 6026,
+    "ambiguous_passages_excluded": 4
+  },
+  "Ottoman": {
+    "source_words": 716935,
+    "matched_words": 513165,
+    "coverage_percent": 71.58,
+    "passages": 3939,
+    "ambiguous_passages_excluded": 0
+  },
+  "Modern": {
+    "source_words": 2564805,
+    "matched_words": 106843,
+    "coverage_percent": 4.17,
+    "passages": 379,
+    "ambiguous_passages_excluded": 0
+  }
+}
