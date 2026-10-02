@@ -1,0 +1,244 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 832
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: English,DejaVu Sans,32,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,2,40,40,18,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.66,0:00:02.22,English,,0,0,0,,In God's name, the Compassionate, the Merciful.
+Dialogue: 0,0:00:02.22,0:00:03.92,English,,0,0,0,,Praise be to God, Lord of all worlds.
+Dialogue: 0,0:00:03.92,0:00:07.00,English,,0,0,0,,Peace and blessings upon the noblest of God's\Ncreation,
+Dialogue: 0,0:00:07.00,0:00:11.84,English,,0,0,0,,our Prophet Muhammad, his family, companions, and\Nfollowers until the Day of Judgment.
+Dialogue: 0,0:00:12.26,0:00:17.78,English,,0,0,0,,Today, God willing, I will discuss the Holy Quran\Nand
+Dialogue: 0,0:00:17.78,0:00:23.34,English,,0,0,0,,the author's fingerprint: how we can use it to\Ndistinguish
+Dialogue: 0,0:00:23.34,0:00:29.89,English,,0,0,0,,between different writers. Let me begin by recalling\Nthat when a messenger is sent,
+Dialogue: 0,0:00:30.32,0:00:33.70,English,,0,0,0,,God, exalted be He, sends him with two things:
+Dialogue: 0,0:00:33.70,0:00:38.22,English,,0,0,0,,a miracle showing that he is a messenger from God,
+Dialogue: 0,0:00:38.25,0:00:41.91,English,,0,0,0,,and the teachings he must convey to God's servants.
+Dialogue: 0,0:00:42.07,0:00:46.59,English,,0,0,0,,Moses had his staff,
+Dialogue: 0,0:00:46.59,0:00:50.53,English,,0,0,0,,and the Torah. Jesus healed those born blind and\Nthose with leprosy,
+Dialogue: 0,0:00:50.53,0:00:52.61,English,,0,0,0,,and he also had the Gospel.
+Dialogue: 0,0:00:52.61,0:00:58.73,English,,0,0,0,,For the Prophet, peace be upon him, the miracle and\Nthe teachings are one and the same.
+Dialogue: 0,0:00:59.12,0:01:00.96,English,,0,0,0,,The Holy Quran is the miracle.
+Dialogue: 0,0:01:03.18,0:01:08.14,English,,0,0,0,,The Quran itself challenged the Arabs to produce a\Nsurah like it.
+Dialogue: 0,0:01:08.32,0:01:13.32,English,,0,0,0,,God says: 'If you doubt what We have revealed
+Dialogue: 0,0:01:13.32,0:01:19.10,English,,0,0,0,,to Our servant, produce a surah like it, and call\Nyour witnesses besides God,
+Dialogue: 0,0:01:19.10,0:01:24.34,English,,0,0,0,,if you are truthful.' Another verse says: 'Or do\Nthey say
+Dialogue: 0,0:01:24.34,0:01:28.52,English,,0,0,0,,he invented it? Say: Then produce ten invented\Nsurahs like it,
+Dialogue: 0,0:01:29.03,0:01:32.31,English,,0,0,0,,and call whoever you can besides God, if you are\Ntruthful.'
+Dialogue: 0,0:01:32.79,0:01:38.01,English,,0,0,0,,Another verse says: 'If humans and jinn joined\Ntogether to produce
+Dialogue: 0,0:01:38.01,0:01:42.99,English,,0,0,0,,the like of this Quran, they could not, even if they\Nhelped one another.'
+Dialogue: 0,0:01:44.38,0:01:49.26,English,,0,0,0,,Now let us move straight to the content of this\Npresentation.
+Dialogue: 0,0:01:49.26,0:01:54.94,English,,0,0,0,,I'll briefly introduce the author's fingerprint and\Nhow
+Dialogue: 0,0:01:54.94,0:01:56.94,English,,0,0,0,,we can extract it from different texts.
+Dialogue: 0,0:01:57.58,0:02:02.89,English,,0,0,0,,We can use it to group texts automatically
+Dialogue: 0,0:02:02.89,0:02:08.29,English,,0,0,0,,by their author's fingerprint, or by the time
+Dialogue: 0,0:02:08.29,0:02:10.54,English,,0,0,0,,or period in which they were written.
+Dialogue: 0,0:02:11.79,0:02:16.27,English,,0,0,0,,After this introduction, I'll move to an experiment
+Dialogue: 0,0:02:16.27,0:02:20.95,English,,0,0,0,,with prose: an experiment involving ten authors.
+Dialogue: 0,0:02:21.05,0:02:25.99,English,,0,0,0,,Then I'll move to the experiment with the Holy Quran\Nand Arabic poetry.
+Dialogue: 0,0:02:27.09,0:02:31.23,English,,0,0,0,,I'll finish with a conclusion and the findings.
+Dialogue: 0,0:02:32.26,0:02:37.48,English,,0,0,0,,Stylometry, or computational stylistics, as we might\Ncall it,
+Dialogue: 0,0:02:37.48,0:02:41.84,English,,0,0,0,,is a technique we can use on a computer
+Dialogue: 0,0:02:41.87,0:02:44.55,English,,0,0,0,,to identify an author's fingerprint.
+Dialogue: 0,0:02:44.55,0:02:50.19,English,,0,0,0,,It can also identify the different periods or times
+Dialogue: 0,0:02:50.19,0:02:54.27,English,,0,0,0,,when these works were written,
+Dialogue: 0,0:02:54.27,0:02:57.01,English,,0,0,0,,whether poetry or prose.
+Dialogue: 0,0:02:58.63,0:03:02.19,English,,0,0,0,,This algorithm uses hierarchical clustering.
+Dialogue: 0,0:03:02.35,0:03:07.89,English,,0,0,0,,It extracts the most frequent words from the texts,
+Dialogue: 0,0:03:07.89,0:03:13.57,English,,0,0,0,,because these are used in different kinds of\Nwriting,
+Dialogue: 0,0:03:13.57,0:03:15.13,English,,0,0,0,,regardless of the subject.
+Dialogue: 0,0:03:15.13,0:03:20.43,English,,0,0,0,,The same writer uses the same prepositions,\Nconjunctions, and similar words
+Dialogue: 0,0:03:20.43,0:03:22.65,English,,0,0,0,,when writing two different texts:
+Dialogue: 0,0:03:22.65,0:03:24.63,English,,0,0,0,,one about economics and another about politics.
+Dialogue: 0,0:03:24.71,0:03:27.33,English,,0,0,0,,These words form
+Dialogue: 0,0:03:27.85,0:03:32.63,English,,0,0,0,,the mathematical vector that represents the author's\Nfingerprint.
+Dialogue: 0,0:03:33.01,0:03:38.53,English,,0,0,0,,We then use established distance measures to group\Nthe texts
+Dialogue: 0,0:03:38.53,0:03:43.83,English,,0,0,0,,into clusters based on similarities in their writing
+Dialogue: 0,0:03:43.83,0:03:49.41,English,,0,0,0,,style. These algorithms treat a text
+Dialogue: 0,0:03:49.41,0:03:50.93,English,,0,0,0,,as a mathematical vector.
+Dialogue: 0,0:03:51.05,0:03:56.15,English,,0,0,0,,For example, the blue vector in this diagram
+Dialogue: 0,0:03:56.15,0:03:58.81,English,,0,0,0,,is represented in three dimensions.
+Dialogue: 0,0:04:03.18,0:04:08.86,English,,0,0,0,,In the same way, we generate mathematical vectors\Nfor all the texts,
+Dialogue: 0,0:04:08.86,0:04:14.44,English,,0,0,0,,with 100 dimensions. These vectors come from the\Nmost
+Dialogue: 0,0:04:14.44,0:04:18.10,English,,0,0,0,,frequent words in the corpus: the collection of\Ntexts being analyzed.
+Dialogue: 0,0:04:20.26,0:04:24.92,English,,0,0,0,,For example, here are the vectors generated
+Dialogue: 0,0:04:24.92,0:04:29.34,English,,0,0,0,,for the texts labeled H1 and onward.
+Dialogue: 0,0:04:36.90,0:04:42.38,English,,0,0,0,,The algorithm measures the distances between the\Ngenerated vectors,
+Dialogue: 0,0:04:42.38,0:04:44.56,English,,0,0,0,,and merges the closest ones.
+Dialogue: 0,0:04:44.72,0:04:50.34,English,,0,0,0,,Then
+Dialogue: 0,0:04:50.34,0:04:53.86,English,,0,0,0,,it merges entire groups according to similarity.
+Dialogue: 0,0:04:53.86,0:04:56.52,English,,0,0,0,,A different or outlying text, such as J1,
+Dialogue: 0,0:04:56.52,0:04:58.24,English,,0,0,0,,ends up in a different cluster.
+Dialogue: 0,0:05:00.20,0:05:02.56,English,,0,0,0,,This is a very important experiment:
+Dialogue: 0,0:05:02.56,0:05:04.88,English,,0,0,0,,the experiment with ten travelers.
+Dialogue: 0,0:05:05.04,0:05:08.48,English,,0,0,0,,We used ten different books,
+Dialogue: 0,0:05:08.48,0:05:12.34,English,,0,0,0,,by writers who lived at roughly the same time,
+Dialogue: 0,0:05:12.34,0:05:15.40,English,,0,0,0,,and wrote about the same subject.
+Dialogue: 0,0:05:15.40,0:05:20.44,English,,0,0,0,,We wanted to see whether we could use
+Dialogue: 0,0:05:20.44,0:05:24.84,English,,0,0,0,,the most frequent words to distinguish between these\Ndifferent writings.
+Dialogue: 0,0:05:25.00,0:05:28.72,English,,0,0,0,,We took about ten samples from each book.
+Dialogue: 0,0:05:29.49,0:05:33.13,English,,0,0,0,,The samples were selected randomly.
+Dialogue: 0,0:05:33.13,0:05:34.93,English,,0,0,0,,So, from each book,
+Dialogue: 0,0:05:34.93,0:05:36.85,English,,0,0,0,,we had passages from the start, the end,
+Dialogue: 0,0:05:36.85,0:05:42.27,English,,0,0,0,,and the middle. Each sample was preprocessed so that
+Dialogue: 0,0:05:42.27,0:05:46.17,English,,0,0,0,,the final comparison used specific features,
+Dialogue: 0,0:05:46.17,0:05:47.91,English,,0,0,0,,whether letters or words:
+Dialogue: 0,0:05:47.91,0:05:51.63,English,,0,0,0,,the same words occurring in the different samples.
+Dialogue: 0,0:05:51.63,0:05:56.95,English,,0,0,0,,On that basis, we carried out the comparison between\Nthe vectors.
+Dialogue: 0,0:05:57.31,0:06:02.70,English,,0,0,0,,generated from these samples. In the first\Nexperiment, we found that
+Dialogue: 0,0:06:02.70,0:06:08.36,English,,0,0,0,,the clusters were unclear, and the samples had been\Ngrouped
+Dialogue: 0,0:06:08.36,0:06:12.98,English,,0,0,0,,incorrectly, because the text passages were very\Nshort.
+Dialogue: 0,0:06:12.98,0:06:16.72,English,,0,0,0,,We used about 500 words or fewer from each author.
+Dialogue: 0,0:06:16.72,0:06:22.24,English,,0,0,0,,As you can see, the clusters were unclear. But in
+Dialogue: 0,0:06:22.24,0:06:26.72,English,,0,0,0,,the second experiment, we increased the word count\Nuntil
+Dialogue: 0,0:06:26.99,0:06:29.29,English,,0,0,0,,each sample had about 2,000 words.
+Dialogue: 0,0:06:29.29,0:06:32.51,English,,0,0,0,,The clustering then looked different.
+Dialogue: 0,0:06:33.20,0:06:38.34,English,,0,0,0,,As you can see, the clusters became very clear: the\Ntexts grouped by
+Dialogue: 0,0:06:38.34,0:06:43.78,English,,0,0,0,,author. This shows that it is possible to group\Ndifferent
+Dialogue: 0,0:06:43.78,0:06:49.30,English,,0,0,0,,writings by author using the words
+Dialogue: 0,0:06:49.30,0:06:52.69,English,,0,0,0,,that occur most frequently.
+Dialogue: 0,0:06:52.69,0:06:58.35,English,,0,0,0,,The second experiment is the most important to me,\Nand the subject of this presentation:
+Dialogue: 0,0:06:58.70,0:07:01.72,English,,0,0,0,,comparing the Holy Quran with Arabic poetry.
+Dialogue: 0,0:07:01.72,0:07:05.08,English,,0,0,0,,The Prophet, peace be upon him, was accused of being\Na poet.
+Dialogue: 0,0:07:05.08,0:07:08.66,English,,0,0,0,,The challenge was to produce something like this\NQuran,
+Dialogue: 0,0:07:08.66,0:07:10.30,English,,0,0,0,,and they failed to do so.
+Dialogue: 0,0:07:10.30,0:07:14.74,English,,0,0,0,,They composed metrical verse, rhyming poetry, and so\Non,
+Dialogue: 0,0:07:14.74,0:07:17.76,English,,0,0,0,,but could not produce anything resembling the Quran.
+Dialogue: 0,0:07:18.02,0:07:23.68,English,,0,0,0,,For this experiment, we collected poetry from the
+Dialogue: 0,0:07:23.68,0:07:25.44,English,,0,0,0,,Pre-Islamic period to the Modern period.
+Dialogue: 0,0:07:27.60,0:07:29.86,English,,0,0,0,,A very large collection, or corpus,
+Dialogue: 0,0:07:29.89,0:07:34.75,English,,0,0,0,,so that we could compare these texts with the Holy\NQuran.
+Dialogue: 0,0:07:35.76,0:07:38.20,English,,0,0,0,,As you can see here,
+Dialogue: 0,0:07:38.20,0:07:43.58,English,,0,0,0,,the corpus covers various periods, from Pre-Islamic,
+Dialogue: 0,0:07:43.58,0:07:49.18,English,,0,0,0,,Early Islamic, Umayyad, Abbasid, Andalusian,\NAyyubid, Fatimid, and Mamluk,
+Dialogue: 0,0:07:49.18,0:07:50.70,English,,0,0,0,,to Ottoman and Modern.
+Dialogue: 0,0:07:52.39,0:07:58.30,English,,0,0,0,,We collected these groups of poems by different\Nwriters.
+Dialogue: 0,0:07:58.72,0:08:03.42,English,,0,0,0,,The corpus contained approximately
+Dialogue: 0,0:08:03.42,0:08:05.94,English,,0,0,0,,ten million words,
+Dialogue: 0,0:08:05.94,0:08:08.56,English,,0,0,0,,nearly six million lines of poetry,
+Dialogue: 0,0:08:08.56,0:08:12.70,English,,0,0,0,,by around a thousand poets from different historical\Nperiods.
+Dialogue: 0,0:08:13.48,0:08:18.02,English,,0,0,0,,The first result, when we used the complete texts,
+Dialogue: 0,0:08:18.05,0:08:23.07,English,,0,0,0,,was that, as you can see, there are two clusters.
+Dialogue: 0,0:08:23.23,0:08:25.49,English,,0,0,0,,One contains the Holy Quran alone.
+Dialogue: 0,0:08:25.93,0:08:31.23,English,,0,0,0,,The other, on the right, contains all the poetry\Nfrom the different periods.
+Dialogue: 0,0:08:31.23,0:08:35.89,English,,0,0,0,,You can see that Umayyad poetry resembles\NPre-Islamic poetry,
+Dialogue: 0,0:08:35.89,0:08:38.83,English,,0,0,0,,and these, in turn, resemble Early Islamic poetry.
+Dialogue: 0,0:08:38.83,0:08:44.37,English,,0,0,0,,The other periods then group into different
+Dialogue: 0,0:08:44.37,0:08:48.79,English,,0,0,0,,clusters. The Holy Quran is clearly distinct from\Nthese texts.
+Dialogue: 0,0:08:49.02,0:08:50.96,English,,0,0,0,,Then, when we took samples,
+Dialogue: 0,0:08:50.96,0:08:54.68,English,,0,0,0,,we took samples from each period.
+Dialogue: 0,0:08:56.01,0:09:01.81,English,,0,0,0,,The result was, again, that all
+Dialogue: 0,0:09:01.81,0:09:07.53,English,,0,0,0,,ten samples from the Holy Quran clustered on their\Nown on the left.
+Dialogue: 0,0:09:07.53,0:09:11.55,English,,0,0,0,,The remaining poetry clustered on the right.
+Dialogue: 0,0:09:12.16,0:09:17.80,English,,0,0,0,,There is another very important point I'd like to\Ndraw attention to:
+Dialogue: 0,0:09:17.80,0:09:23.52,English,,0,0,0,,the ten Pre-Islamic poetry samples clustered close\Nto
+Dialogue: 0,0:09:23.52,0:09:26.66,English,,0,0,0,,the Umayyad period, but still formed their own\Ngroup.
+Dialogue: 0,0:09:26.94,0:09:30.68,English,,0,0,0,,This means they have distinctive characteristics.
+Dialogue: 0,0:09:30.91,0:09:35.85,English,,0,0,0,,This proves that there really is Pre-Islamic poetry,
+Dialogue: 0,0:09:35.85,0:09:38.39,English,,0,0,0,,contrary to what Professor Taha Hussein said.
+Dialogue: 0,0:09:38.39,0:09:42.45,English,,0,0,0,,This issue should therefore be studied\Nscientifically.
+Dialogue: 0,0:09:42.45,0:09:47.95,English,,0,0,0,,We should identify the features: the words, letters,\Nor
+Dialogue: 0,0:09:47.95,0:09:50.13,English,,0,0,0,,the model used,
+Dialogue: 0,0:09:50.13,0:09:53.31,English,,0,0,0,,on which this diagram was based,
+Dialogue: 0,0:09:53.31,0:09:56.51,English,,0,0,0,,and which indicated that Pre-Islamic poetry has...
+Dialogue: 0,0:09:57.06,0:10:00.74,English,,0,0,0,,distinctive features that set it apart from the\Nother periods.
+Dialogue: 0,0:10:01.02,0:10:03.66,English,,0,0,0,,The important question, then, is:
+Dialogue: 0,0:10:03.66,0:10:06.92,English,,0,0,0,,if we want to identify the features,
+Dialogue: 0,0:10:06.92,0:10:11.06,English,,0,0,0,,the words used in these models and diagrams
+Dialogue: 0,0:10:11.06,0:10:15.34,English,,0,0,0,,that distinguish the Quran from the other texts, and\Nstudy them,
+Dialogue: 0,0:10:15.34,0:10:20.50,English,,0,0,0,,yes, we can do that, but using
+Dialogue: 0,0:10:20.50,0:10:22.50,English,,0,0,0,,other methods.
+Dialogue: 0,0:10:22.89,0:10:26.81,English,,0,0,0,,PCA is
+Dialogue: 0,0:10:26.93,0:10:32.05,English,,0,0,0,,the subject of the next slide.
+Dialogue: 0,0:10:32.76,0:10:38.32,English,,0,0,0,,With PCA, what we are trying to do is...
+Dialogue: 0,0:10:38.32,0:10:43.86,English,,0,0,0,,Previously, we examined a text through the hundred
+Dialogue: 0,0:10:43.86,0:10:49.20,English,,0,0,0,,words forming its vector, measuring its distance\Nfrom the other vectors.
+Dialogue: 0,0:10:49.48,0:10:54.26,English,,0,0,0,,Now we want to look at these texts in just two\Ndimensions.
+Dialogue: 0,0:10:54.26,0:10:59.40,English,,0,0,0,,That is why we use this technique.
+Dialogue: 0,0:10:59.40,0:11:05.08,English,,0,0,0,,There are groups of words which
+Dialogue: 0,0:11:05.08,0:11:09.24,English,,0,0,0,,occur more often in one group of texts and less\Noften in the other,
+Dialogue: 0,0:11:09.24,0:11:14.48,English,,0,0,0,,according to the clusters. Here, for example, we\Nhave the Quran on
+Dialogue: 0,0:11:14.64,0:11:18.40,English,,0,0,0,,the left, surrounded by some of its distinguishing\Nwords.
+Dialogue: 0,0:11:18.91,0:11:23.37,English,,0,0,0,,On the right are the other poems and the words that\Ndistinguish them.
+Dialogue: 0,0:11:23.37,0:11:28.89,English,,0,0,0,,Some words are clear: for example, 'Allah' ('God'),\Non the left beside the Quran.
+Dialogue: 0,0:11:28.89,0:11:30.45,English,,0,0,0,,And 'al-dahr' ('time').
+Dialogue: 0,0:11:30.45,0:11:35.75,English,,0,0,0,,These are clear. But other words, such as\Ndemonstratives and so on,
+Dialogue: 0,0:11:35.75,0:11:40.93,English,,0,0,0,,need input and analysis from language specialists to\Nunderstand
+Dialogue: 0,0:11:40.93,0:11:46.25,English,,0,0,0,,why they occur more here than in the other texts,\Nand distinguish the Quran.
+Dialogue: 0,0:11:47.52,0:11:51.49,English,,0,0,0,,If we move to two-word sequences,
+Dialogue: 0,0:11:51.49,0:11:57.11,English,,0,0,0,,we again find different expressions in phrases or\Npairs of words.
+Dialogue: 0,0:11:57.27,0:12:01.81,English,,0,0,0,,The Holy Quran consistently differs in its\Nexpressions,
+Dialogue: 0,0:12:01.81,0:12:03.47,English,,0,0,0,,its words, and its vocabulary.
+Dialogue: 0,0:12:03.53,0:12:09.09,English,,0,0,0,,If we leave that analysis and move to sequences of\Nletters,
+Dialogue: 0,0:12:09.09,0:12:11.71,English,,0,0,0,,starting with single letters, for example,
+Dialogue: 0,0:12:11.71,0:12:14.21,English,,0,0,0,,this is a result I think is very important.
+Dialogue: 0,0:12:14.21,0:12:17.05,English,,0,0,0,,We find that a number of letters appear
+Dialogue: 0,0:12:17.27,0:12:18.79,English,,0,0,0,,on the Quran's side
+Dialogue: 0,0:12:18.79,0:12:20.83,English,,0,0,0,,more than in the poetry.
+Dialogue: 0,0:12:20.83,0:12:23.69,English,,0,0,0,,The Quran used these letters more often.
+Dialogue: 0,0:12:23.69,0:12:26.77,English,,0,0,0,,I don't know why. Perhaps it comes from vocabulary
+Dialogue: 0,0:12:26.77,0:12:30.55,English,,0,0,0,,containing words that had been little used, or were\Nunique to it.
+Dialogue: 0,0:12:30.55,0:12:33.41,English,,0,0,0,,They did not appear even in the later periods.
+Dialogue: 0,0:12:33.41,0:12:36.43,English,,0,0,0,,It was distinguished by these letters.
+Dialogue: 0,0:12:36.43,0:12:37.91,English,,0,0,0,,For example,
+Dialogue: 0,0:12:37.91,0:12:40.19,English,,0,0,0,,here is a comparison,
+Dialogue: 0,0:12:40.19,0:12:41.69,English,,0,0,0,,just to enlarge the picture,
+Dialogue: 0,0:12:41.69,0:12:45.33,English,,0,0,0,,between the Quran, Umayyad, Early Islamic, and\NAbbasid poetry. These are the same
+Dialogue: 0,0:12:45.72,0:12:48.92,English,,0,0,0,,letters that distinguished it from all the other\Nperiods:
+Dialogue: 0,0:12:48.92,0:12:52.72,English,,0,0,0,,mim, kaf, nun, ha, and dhal.
+Dialogue: 0,0:12:52.72,0:12:54.50,English,,0,0,0,,I don't know the explanation.
+Dialogue: 0,0:12:54.50,0:12:56.00,English,,0,0,0,,We need language specialists
+Dialogue: 0,0:12:56.00,0:12:57.58,English,,0,0,0,,to give us,
+Dialogue: 0,0:12:57.58,0:12:59.00,English,,0,0,0,,as they say,
+Dialogue: 0,0:12:59.00,0:13:01.65,English,,0,0,0,,an informed scholarly opinion.
+Dialogue: 0,0:13:01.65,0:13:03.29,English,,0,0,0,,Likewise, if we use two letters,
+Dialogue: 0,0:13:03.29,0:13:05.19,English,,0,0,0,,splitting the text into sequences
+Dialogue: 0,0:13:05.19,0:13:09.79,English,,0,0,0,,of two letters, we again find the Quran distinct and\Nunique.
+Dialogue: 0,0:13:09.89,0:13:12.31,English,,0,0,0,,If we move to three letters,
+Dialogue: 0,0:13:12.31,0:13:14.41,English,,0,0,0,,we again find a different pattern.
+Dialogue: 0,0:13:14.89,0:13:20.53,English,,0,0,0,,If we move to seven letters, there is something to\Ndiscuss here.
+Dialogue: 0,0:13:20.53,0:13:26.31,English,,0,0,0,,I noticed that prepositions attach to nouns more\Noften in
+Dialogue: 0,0:13:26.31,0:13:31.99,English,,0,0,0,,the Quran. But in Pre-Islamic poetry, as I'll show\Non
+Dialogue: 0,0:13:31.99,0:13:37.73,English,,0,0,0,,the next slide, they were very rare. What appeared
+Dialogue: 0,0:13:37.73,0:13:42.99,English,,0,0,0,,more often, however, was prepositions with the\Nparticle, or
+Dialogue: 0,0:13:42.99,0:13:44.53,English,,0,0,0,,the definite article 'al-'.
+Dialogue: 0,0:13:44.85,0:13:47.35,English,,0,0,0,,These appeared frequently in the Quran.
+Dialogue: 0,0:13:47.35,0:13:52.63,English,,0,0,0,,I think the Quran then changed the way the language\Nwas used, because other
+Dialogue: 0,0:13:52.63,0:13:54.05,English,,0,0,0,,poetry began using them.
+Dialogue: 0,0:13:54.05,0:13:59.83,English,,0,0,0,,Over time, it clearly began using prepositions\Nattached to 'al-'.
+Dialogue: 0,0:14:00.62,0:14:06.37,English,,0,0,0,,There is a view that, previously, prepositions did\Nnot
+Dialogue: 0,0:14:06.37,0:14:09.31,English,,0,0,0,,attach directly to nouns in this way.
+Dialogue: 0,0:14:09.31,0:14:12.65,English,,0,0,0,,The noun took the genitive, as in 'jamil al-wajh'\N('beautiful of face').
+Dialogue: 0,0:14:12.65,0:14:14.23,English,,0,0,0,,'Beautiful of face.'
+Dialogue: 0,0:14:14.23,0:14:15.87,English,,0,0,0,,Or, as the poet said:
+Dialogue: 0,0:14:16.24,0:14:18.36,English,,0,0,0,,'Whatever faults I may have,
+Dialogue: 0,0:14:18.36,0:14:21.98,English,,0,0,0,,my dog is timid and my camel calf is lean.'
+Dialogue: 0,0:14:24.18,0:14:26.74,English,,0,0,0,,The point is that the construction used to come like\Nthis.
+Dialogue: 0,0:14:26.74,0:14:31.26,English,,0,0,0,,This is one result that may support that view.
+Dialogue: 0,0:14:31.26,0:14:36.68,English,,0,0,0,,But we also need scientific and technical analysis\Nfrom language
+Dialogue: 0,0:14:36.68,0:14:41.36,English,,0,0,0,,specialists. This should be put to them for further
+Dialogue: 0,0:14:41.36,0:14:46.02,English,,0,0,0,,discussion. In conclusion,
+Dialogue: 0,0:14:46.51,0:14:49.85,English,,0,0,0,,the Holy Quran's style is completely different from\Npoetry.
+Dialogue: 0,0:14:49.85,0:14:53.05,English,,0,0,0,,It cannot be poetry in any way.
+Dialogue: 0,0:14:53.05,0:14:54.95,English,,0,0,0,,It differs in every characteristic,
+Dialogue: 0,0:14:54.95,0:14:57.77,English,,0,0,0,,every feature, whether letters or words,
+Dialogue: 0,0:14:57.77,0:15:03.53,English,,0,0,0,,or what we call parts or sequences of letters:
+Dialogue: 0,0:15:03.53,0:15:05.75,English,,0,0,0,,two or three letters, and so on.
+Dialogue: 0,0:15:05.97,0:15:11.05,English,,0,0,0,,The Quran's style is completely different from the\Nvarious poetic
+Dialogue: 0,0:15:11.05,0:15:15.23,English,,0,0,0,,texts. And the Quran itself...
+Dialogue: 0,0:15:15.30,0:15:20.94,English,,0,0,0,,The Quran itself says in Surah Ya-Sin: 'We have not\Ntaught him poetry,
+Dialogue: 0,0:15:20.94,0:15:23.76,English,,0,0,0,,nor is it fitting for him. It is only a reminder and\Na clear Quran.'
+Dialogue: 0,0:15:23.80,0:15:28.98,English,,0,0,0,,It cannot be poetry. In al-Haqqah: 'It is not a\Npoet's speech; little do you believe.'
+Dialogue: 0,0:15:29.00,0:15:32.54,English,,0,0,0,,And in al-Shu'ara: 'Or do they say: a poet, for whom\Nwe await the misfortunes of time?'
+Dialogue: 0,0:15:32.72,0:15:35.86,English,,0,0,0,,Let them wait until the Hour comes.
+Dialogue: 0,0:15:36.06,0:15:38.90,English,,0,0,0,,The Holy Quran will remain completely different,
+Dialogue: 0,0:15:39.00,0:15:42.28,English,,0,0,0,,from all poetry, all prose, and everything else.
+Dialogue: 0,0:15:42.50,0:15:44.80,English,,0,0,0,,It is a revelation from the Lord of all worlds.
+Dialogue: 0,0:15:44.86,0:15:48.96,English,,0,0,0,,May God bless our Prophet Muhammad, his family and\Ncompanions, and grant them peace.
+Dialogue: 0,0:15:49.48,0:15:51.88,English,,0,0,0,,Peace be upon you, and God's mercy and blessings.

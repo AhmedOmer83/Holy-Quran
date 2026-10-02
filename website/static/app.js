@@ -1,6 +1,11 @@
 'use strict';
 const $ = id => document.getElementById(id);
 const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const featureSpaceHint = '␣ marks each space, including before or after a word. Arabic features read from right to left.';
+// Display boundaries without changing feature identities, matching, or data exports.
+function featureLabel(name, kind) {
+  return kind === 'length' ? `${name}${name === '15' ? '+' : ''} letters` : name.replaceAll(' ', '␣');
+}
 const colors = ['#286052','#b47c42','#80799e','#799260','#548a9d','#ba6861','#918256','#789b91','#b38fa3','#7386b0','#9e916f','#bf946e'];
 let catalog, result, busy = false, activeChart = 'tree';
 let revision = 0, pendingRun = false, runTimer;
@@ -89,6 +94,7 @@ function controlsChanged() {
   ward.disabled = $('distance').value !== 'euclidean';
   if(ward.disabled && $('linkage').value === 'ward')$('linkage').value='average';
   result = null;
+  $('feature-space-note').hidden = true;
   referenceExamples.clear();
   expandedFeature = null;
   comparisonResults = [];
@@ -207,7 +213,9 @@ function render() {
   const b=r.branch;
   $('finding').textContent=!b.testable ? (c.view==='centroids' ? t('Centroid view compares the average style of each category. Switch to text samples to test whether {focus} samples form a separate branch.',{focus}) : t('At least two {focus} samples are needed to test whether they form a separate branch.',{focus})) : b.separate ? t('At these settings, all {count} {focus} samples form a separate branch containing no samples from the other selected groups. Compare feature sets to see how consistent this separation is.',{count:b.target_count,focus}) : t('At these settings, {focus} samples do not form an exclusive branch. The smallest branch containing all {count} {focus} samples also contains {others} samples from other groups ({total} total).',{focus,count:b.target_count,others:b.total_count-b.target_count,total:b.total_count});
   const max=Math.max(...r.features.map(f=>Math.abs(f.effect)),.01);
-  $('feature-rows').innerHTML=r.features.map((f,index)=>`<tr class="feature-data-row"><td class="arabic" dir="auto">${esc(c.feature==='length'?`${f.name}${f.name==='15'?'+':''} letters`:f.name)}</td><td data-label="${esc(t('{group} rate',{group:focus}))}">${f.focus.toFixed(2)}</td><td data-label="${esc(t('{group} rate',{group:other}))}">${f.other.toFixed(2)}</td><td data-label="${esc(t('Standardized difference'))}"><span class="effect"><span class="effect-track"><i style="width:${Math.abs(f.effect)/max*100}%;background:${f.effect>=0?'#4c8066':'#b08a57'}"></i></span><span class="effect-value">${f.effect>0?'+':''}${f.effect.toFixed(2)}</span></span></td>${FEATURE_EXAMPLES_ENABLED ? `<td><button type="button" class="plain feature-example-toggle" data-feature-index="${index}" aria-expanded="false" aria-controls="feature-examples-${index}">${t('See examples')}</button></td>` : ''}</tr>${FEATURE_EXAMPLES_ENABLED ? `<tr class="feature-examples-row" id="feature-examples-${index}" hidden><td colspan="5"></td></tr>` : ''}`).join('') || `<tr><td colspan="${FEATURE_EXAMPLES_ENABLED ? 5 : 4}">${t('No varying feature differences are available for this selection.')}</td></tr>`;
+  $('feature-space-note').textContent = t(featureSpaceHint);
+  $('feature-space-note').hidden = !r.features.some(f => f.name.includes(' '));
+  $('feature-rows').innerHTML=r.features.map((f,index)=>`<tr class="feature-data-row"><td class="arabic" dir="auto">${esc(featureLabel(f.name, c.feature))}</td><td data-label="${esc(t('{group} rate',{group:focus}))}">${f.focus.toFixed(2)}</td><td data-label="${esc(t('{group} rate',{group:other}))}">${f.other.toFixed(2)}</td><td data-label="${esc(t('Standardized difference'))}"><span class="effect"><span class="effect-track"><i style="width:${Math.abs(f.effect)/max*100}%;background:${f.effect>=0?'#4c8066':'#b08a57'}"></i></span><span class="effect-value">${f.effect>0?'+':''}${f.effect.toFixed(2)}</span></span></td>${FEATURE_EXAMPLES_ENABLED ? `<td><button type="button" class="plain feature-example-toggle" data-feature-index="${index}" aria-expanded="false" aria-controls="feature-examples-${index}">${t('See examples')}</button></td>` : ''}</tr>${FEATURE_EXAMPLES_ENABLED ? `<tr class="feature-examples-row" id="feature-examples-${index}" hidden><td colspan="5"></td></tr>` : ''}`).join('') || `<tr><td colspan="${FEATURE_EXAMPLES_ENABLED ? 5 : 4}">${t('No varying feature differences are available for this selection.')}</td></tr>`;
   if(FEATURE_EXAMPLES_ENABLED && expandedFeature !== null) showFeatureExamples(expandedFeature);
   $('methodology').innerHTML=language==='ar'?arabicMethods(r,focus,other):`<p><b>Distance.</b> ${esc(r.method)} ${esc(c.linkage)} linkage. Features are selected from pooled counts without consulting group labels; constant features are excluded.</p><p><b>Normalization.</b> ${esc(r.normalization)}. Feature frequencies use all feature events as the denominator, including events outside the retained vocabulary.</p><p><b>Feature contrast.</b> ${esc(focus)} mean minus the mean of ${esc(other)}, divided by the sample standard deviation across all selected samples. Positive values mean higher frequency in ${esc(focus)} samples. The comparator is weighted by sample count.</p><p><b>Branch purity.</b> Proportion of ${esc(focus)} leaves in the smallest subtree containing every ${esc(focus)} leaf. 100% indicates an exclusive branch when at least two ${esc(focus)} samples are present.</p><p><b>Silhouette.</b> Calculated on original sample distances using two labels: ${esc(focus)} and ${esc(other)}. All selected groups other than the focus group are pooled for this measure. Ranges from −1 to 1; higher means stronger separation of the focus group from the other selected groups. It is descriptive, not a significance test. Centroid mode retains this sample-based metric.</p><p><b>PCA.</b> Two-component projection of ${c.distance==='delta'?'standardized':'relative'} feature frequencies; it is not an exact rendering of ${esc(c.distance)} distances. The 20 strongest feature vectors use component weights multiplied by component standard deviations, uniformly scaled to fit the sample plot. Label guide lines are only for readability; compare arrow directions, not label-to-sample distances.</p><ul>${r.warnings.map(w=>`<li>${esc(w)}</li>`).join('')}</ul><p><b>Reproducibility.</b> Non-overlapping full chunks sampled without replacement; per-era seeded random streams. Exports include exact source paths, zero-based chunk indices, sample SHA-256 hashes, normalized feature matrix and all parameters.</p><details><summary>Recorded settings & sample manifest</summary><pre style="white-space:pre-wrap;font-size:10px">${esc(JSON.stringify(c,null,2))}</pre><ul>${r.samples.map(s=>`<li>${esc(sampleLabel(s))} — <code>${esc(s.source)}</code>, chunk ${s.chunk}, ${s.raw_words.toLocaleString()} source words</li>`).join('')}</ul></details>`;
   ['download','svg-export','csv-export'].forEach(k=>$(k).disabled=false);
@@ -261,7 +269,7 @@ function showFeatureExamples(index) {
   button.textContent = t('Hide examples');
   button.setAttribute('aria-expanded', 'true');
   row.hidden = false;
-  row.firstElementChild.innerHTML = `<div class="feature-examples-heading">${t('Examples of')} <bdi class="feature-example-name" lang="ar">${esc(feature.name)}</bdi></div>
+  row.firstElementChild.innerHTML = `<div class="feature-examples-heading">${t('Examples of')} <bdi class="feature-example-name" lang="ar">${esc(featureLabel(feature.name, result.config.feature))}</bdi></div>
     <p class="feature-examples-note">${t('Matches are found in the historical comparison text. Quran and poetry examples show source spelling, so highlights may differ from feature labels. Poetry examples are limited to passages with a matching corrected source; unmatched passages are omitted.')}</p>
     <p class="feature-examples-note">${t('One example per selected group is shown where a matching source passage is available.')}</p>
     <div class="feature-examples-grid">${result.config.eras.map(era => {
@@ -332,7 +340,7 @@ function drawPCA(r) {
   const context=document.createElement('canvas').getContext('2d');context.font='13px Tahoma, Arial, sans-serif';
   let vectors='',labels='';
   for(const f of features) {
-    const x=sx(f.x),y=sy(f.y),name=r.config.feature==='length'?`${f.name}${f.name==='15'?'+':''} letters`:f.name;
+    const x=sx(f.x),y=sy(f.y),name=featureLabel(f.name, r.config.feature);
     const w=Math.min(context.measureText(name).width+12,width-2*pad),h=22;
     let box,bestScore=Infinity;
     for(let radius=16;radius<=180;radius+=20) {
@@ -353,6 +361,7 @@ function drawPCA(r) {
 function chartNote() {
   $('chart-title').textContent=t(activeChart==='tree'?'Hierarchical clustering (HC)':'Principal component analysis (PCA)');
   $('chart-note').textContent=activeChart==='tree'?t('Branches join similar texts; colors show supplied corpus labels.'):t('Points are text samples; Arabic labels and arrows show the 20 strongest feature directions in PC1 and PC2. Arrows share one display scale; label guide lines improve readability.');
+  if(activeChart==='pca' && result?.pca_features?.some(f=>f.name.includes(' '))) $('chart-note').textContent += ` ${t(featureSpaceHint)}`;
 }
 function switchChart(which) {
   activeChart=which;

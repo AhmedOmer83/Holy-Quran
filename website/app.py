@@ -24,7 +24,14 @@ def index():
 
 @app.get('/media/explainer.mp4')
 def explainer_video():
-    response = send_file(ROOT / 'القرآن الكريم وتحدي الشعراء ، خوارزمية التجميع الهرمي.mp4', mimetype='video/mp4', conditional=True)
+    return stream_video(ROOT / 'القرآن الكريم وتحدي الشعراء ، خوارزمية التجميع الهرمي.mp4')
+
+@app.get('/media/explainer.en.mp4')
+def english_explainer_video():
+    return stream_video(ROOT / 'website/media/explainer.en.mp4')
+
+def stream_video(path):
+    response = send_file(path, mimetype='video/mp4', conditional=True)
     # Cloud Run rejects non-chunked HTTP/1 responses larger than 32 MiB.
     # Let Gunicorn stream large bodies with chunked transfer encoding while
     # retaining Content-Range for browser playback and seeking.

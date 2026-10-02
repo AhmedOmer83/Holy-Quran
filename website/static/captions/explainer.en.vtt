@@ -1,0 +1,1016 @@
+WEBVTT
+
+1
+00:00:00.660 --> 00:00:02.220
+In God's name, the Compassionate, the Merciful.
+
+2
+00:00:02.220 --> 00:00:03.920
+Praise be to God, Lord of all worlds.
+
+3
+00:00:03.920 --> 00:00:07.000
+Peace and blessings upon the noblest of God's
+creation,
+
+4
+00:00:07.000 --> 00:00:11.840
+our Prophet Muhammad, his family, companions, and
+followers until the Day of Judgment.
+
+5
+00:00:12.260 --> 00:00:17.780
+Today, God willing, I will discuss the Holy Quran
+and
+
+6
+00:00:17.780 --> 00:00:23.340
+the author's fingerprint: how we can use it to
+distinguish
+
+7
+00:00:23.340 --> 00:00:29.890
+between different writers. Let me begin by recalling
+that when a messenger is sent,
+
+8
+00:00:30.320 --> 00:00:33.700
+God, exalted be He, sends him with two things:
+
+9
+00:00:33.700 --> 00:00:38.220
+a miracle showing that he is a messenger from God,
+
+10
+00:00:38.250 --> 00:00:41.910
+and the teachings he must convey to God's servants.
+
+11
+00:00:42.070 --> 00:00:46.590
+Moses had his staff,
+
+12
+00:00:46.590 --> 00:00:50.530
+and the Torah. Jesus healed those born blind and
+those with leprosy,
+
+13
+00:00:50.530 --> 00:00:52.610
+and he also had the Gospel.
+
+14
+00:00:52.610 --> 00:00:58.730
+For the Prophet, peace be upon him, the miracle and
+the teachings are one and the same.
+
+15
+00:00:59.120 --> 00:01:00.960
+The Holy Quran is the miracle.
+
+16
+00:01:03.180 --> 00:01:08.140
+The Quran itself challenged the Arabs to produce a
+surah like it.
+
+17
+00:01:08.320 --> 00:01:13.320
+God says: 'If you doubt what We have revealed
+
+18
+00:01:13.320 --> 00:01:19.100
+to Our servant, produce a surah like it, and call
+your witnesses besides God,
+
+19
+00:01:19.100 --> 00:01:24.340
+if you are truthful.' Another verse says: 'Or do
+they say
+
+20
+00:01:24.340 --> 00:01:28.520
+he invented it? Say: Then produce ten invented
+surahs like it,
+
+21
+00:01:29.030 --> 00:01:32.310
+and call whoever you can besides God, if you are
+truthful.'
+
+22
+00:01:32.790 --> 00:01:38.010
+Another verse says: 'If humans and jinn joined
+together to produce
+
+23
+00:01:38.010 --> 00:01:42.990
+the like of this Quran, they could not, even if they
+helped one another.'
+
+24
+00:01:44.380 --> 00:01:49.260
+Now let us move straight to the content of this
+presentation.
+
+25
+00:01:49.260 --> 00:01:54.940
+I'll briefly introduce the author's fingerprint and
+how
+
+26
+00:01:54.940 --> 00:01:56.940
+we can extract it from different texts.
+
+27
+00:01:57.580 --> 00:02:02.890
+We can use it to group texts automatically
+
+28
+00:02:02.890 --> 00:02:08.290
+by their author's fingerprint, or by the time
+
+29
+00:02:08.290 --> 00:02:10.540
+or period in which they were written.
+
+30
+00:02:11.790 --> 00:02:16.270
+After this introduction, I'll move to an experiment
+
+31
+00:02:16.270 --> 00:02:20.950
+with prose: an experiment involving ten authors.
+
+32
+00:02:21.050 --> 00:02:25.990
+Then I'll move to the experiment with the Holy Quran
+and Arabic poetry.
+
+33
+00:02:27.090 --> 00:02:31.230
+I'll finish with a conclusion and the findings.
+
+34
+00:02:32.260 --> 00:02:37.480
+Stylometry, or computational stylistics, as we might
+call it,
+
+35
+00:02:37.480 --> 00:02:41.840
+is a technique we can use on a computer
+
+36
+00:02:41.870 --> 00:02:44.550
+to identify an author's fingerprint.
+
+37
+00:02:44.550 --> 00:02:50.190
+It can also identify the different periods or times
+
+38
+00:02:50.190 --> 00:02:54.270
+when these works were written,
+
+39
+00:02:54.270 --> 00:02:57.010
+whether poetry or prose.
+
+40
+00:02:58.630 --> 00:03:02.190
+This algorithm uses hierarchical clustering.
+
+41
+00:03:02.350 --> 00:03:07.890
+It extracts the most frequent words from the texts,
+
+42
+00:03:07.890 --> 00:03:13.570
+because these are used in different kinds of
+writing,
+
+43
+00:03:13.570 --> 00:03:15.130
+regardless of the subject.
+
+44
+00:03:15.130 --> 00:03:20.430
+The same writer uses the same prepositions,
+conjunctions, and similar words
+
+45
+00:03:20.430 --> 00:03:22.650
+when writing two different texts:
+
+46
+00:03:22.650 --> 00:03:24.630
+one about economics and another about politics.
+
+47
+00:03:24.710 --> 00:03:27.330
+These words form
+
+48
+00:03:27.850 --> 00:03:32.630
+the mathematical vector that represents the author's
+fingerprint.
+
+49
+00:03:33.010 --> 00:03:38.530
+We then use established distance measures to group
+the texts
+
+50
+00:03:38.530 --> 00:03:43.830
+into clusters based on similarities in their writing
+
+51
+00:03:43.830 --> 00:03:49.410
+style. These algorithms treat a text
+
+52
+00:03:49.410 --> 00:03:50.930
+as a mathematical vector.
+
+53
+00:03:51.050 --> 00:03:56.150
+For example, the blue vector in this diagram
+
+54
+00:03:56.150 --> 00:03:58.810
+is represented in three dimensions.
+
+55
+00:04:03.180 --> 00:04:08.860
+In the same way, we generate mathematical vectors
+for all the texts,
+
+56
+00:04:08.860 --> 00:04:14.440
+with 100 dimensions. These vectors come from the
+most
+
+57
+00:04:14.440 --> 00:04:18.100
+frequent words in the corpus: the collection of
+texts being analyzed.
+
+58
+00:04:20.260 --> 00:04:24.920
+For example, here are the vectors generated
+
+59
+00:04:24.920 --> 00:04:29.340
+for the texts labeled H1 and onward.
+
+60
+00:04:36.900 --> 00:04:42.380
+The algorithm measures the distances between the
+generated vectors,
+
+61
+00:04:42.380 --> 00:04:44.560
+and merges the closest ones.
+
+62
+00:04:44.720 --> 00:04:50.340
+Then
+
+63
+00:04:50.340 --> 00:04:53.860
+it merges entire groups according to similarity.
+
+64
+00:04:53.860 --> 00:04:56.520
+A different or outlying text, such as J1,
+
+65
+00:04:56.520 --> 00:04:58.240
+ends up in a different cluster.
+
+66
+00:05:00.200 --> 00:05:02.560
+This is a very important experiment:
+
+67
+00:05:02.560 --> 00:05:04.880
+the experiment with ten travelers.
+
+68
+00:05:05.040 --> 00:05:08.480
+We used ten different books,
+
+69
+00:05:08.480 --> 00:05:12.340
+by writers who lived at roughly the same time,
+
+70
+00:05:12.340 --> 00:05:15.400
+and wrote about the same subject.
+
+71
+00:05:15.400 --> 00:05:20.440
+We wanted to see whether we could use
+
+72
+00:05:20.440 --> 00:05:24.840
+the most frequent words to distinguish between these
+different writings.
+
+73
+00:05:25.000 --> 00:05:28.720
+We took about ten samples from each book.
+
+74
+00:05:29.490 --> 00:05:33.130
+The samples were selected randomly.
+
+75
+00:05:33.130 --> 00:05:34.930
+So, from each book,
+
+76
+00:05:34.930 --> 00:05:36.850
+we had passages from the start, the end,
+
+77
+00:05:36.850 --> 00:05:42.270
+and the middle. Each sample was preprocessed so that
+
+78
+00:05:42.270 --> 00:05:46.170
+the final comparison used specific features,
+
+79
+00:05:46.170 --> 00:05:47.910
+whether letters or words:
+
+80
+00:05:47.910 --> 00:05:51.630
+the same words occurring in the different samples.
+
+81
+00:05:51.630 --> 00:05:56.950
+On that basis, we carried out the comparison between
+the vectors.
+
+82
+00:05:57.310 --> 00:06:02.700
+generated from these samples. In the first
+experiment, we found that
+
+83
+00:06:02.700 --> 00:06:08.360
+the clusters were unclear, and the samples had been
+grouped
+
+84
+00:06:08.360 --> 00:06:12.980
+incorrectly, because the text passages were very
+short.
+
+85
+00:06:12.980 --> 00:06:16.720
+We used about 500 words or fewer from each author.
+
+86
+00:06:16.720 --> 00:06:22.240
+As you can see, the clusters were unclear. But in
+
+87
+00:06:22.240 --> 00:06:26.720
+the second experiment, we increased the word count
+until
+
+88
+00:06:26.990 --> 00:06:29.290
+each sample had about 2,000 words.
+
+89
+00:06:29.290 --> 00:06:32.510
+The clustering then looked different.
+
+90
+00:06:33.200 --> 00:06:38.340
+As you can see, the clusters became very clear: the
+texts grouped by
+
+91
+00:06:38.340 --> 00:06:43.780
+author. This shows that it is possible to group
+different
+
+92
+00:06:43.780 --> 00:06:49.300
+writings by author using the words
+
+93
+00:06:49.300 --> 00:06:52.690
+that occur most frequently.
+
+94
+00:06:52.690 --> 00:06:58.350
+The second experiment is the most important to me,
+and the subject of this presentation:
+
+95
+00:06:58.700 --> 00:07:01.720
+comparing the Holy Quran with Arabic poetry.
+
+96
+00:07:01.720 --> 00:07:05.080
+The Prophet, peace be upon him, was accused of being
+a poet.
+
+97
+00:07:05.080 --> 00:07:08.660
+The challenge was to produce something like this
+Quran,
+
+98
+00:07:08.660 --> 00:07:10.300
+and they failed to do so.
+
+99
+00:07:10.300 --> 00:07:14.740
+They composed metrical verse, rhyming poetry, and so
+on,
+
+100
+00:07:14.740 --> 00:07:17.760
+but could not produce anything resembling the Quran.
+
+101
+00:07:18.020 --> 00:07:23.680
+For this experiment, we collected poetry from the
+
+102
+00:07:23.680 --> 00:07:25.440
+Pre-Islamic period to the Modern period.
+
+103
+00:07:27.600 --> 00:07:29.860
+A very large collection, or corpus,
+
+104
+00:07:29.890 --> 00:07:34.750
+so that we could compare these texts with the Holy
+Quran.
+
+105
+00:07:35.760 --> 00:07:38.200
+As you can see here,
+
+106
+00:07:38.200 --> 00:07:43.580
+the corpus covers various periods, from Pre-Islamic,
+
+107
+00:07:43.580 --> 00:07:49.180
+Early Islamic, Umayyad, Abbasid, Andalusian,
+Ayyubid, Fatimid, and Mamluk,
+
+108
+00:07:49.180 --> 00:07:50.700
+to Ottoman and Modern.
+
+109
+00:07:52.390 --> 00:07:58.300
+We collected these groups of poems by different
+writers.
+
+110
+00:07:58.720 --> 00:08:03.420
+The corpus contained approximately
+
+111
+00:08:03.420 --> 00:08:05.940
+ten million words,
+
+112
+00:08:05.940 --> 00:08:08.560
+nearly six million lines of poetry,
+
+113
+00:08:08.560 --> 00:08:12.700
+by around a thousand poets from different historical
+periods.
+
+114
+00:08:13.480 --> 00:08:18.020
+The first result, when we used the complete texts,
+
+115
+00:08:18.050 --> 00:08:23.070
+was that, as you can see, there are two clusters.
+
+116
+00:08:23.230 --> 00:08:25.490
+One contains the Holy Quran alone.
+
+117
+00:08:25.930 --> 00:08:31.230
+The other, on the right, contains all the poetry
+from the different periods.
+
+118
+00:08:31.230 --> 00:08:35.890
+You can see that Umayyad poetry resembles
+Pre-Islamic poetry,
+
+119
+00:08:35.890 --> 00:08:38.830
+and these, in turn, resemble Early Islamic poetry.
+
+120
+00:08:38.830 --> 00:08:44.370
+The other periods then group into different
+
+121
+00:08:44.370 --> 00:08:48.790
+clusters. The Holy Quran is clearly distinct from
+these texts.
+
+122
+00:08:49.020 --> 00:08:50.960
+Then, when we took samples,
+
+123
+00:08:50.960 --> 00:08:54.680
+we took samples from each period.
+
+124
+00:08:56.010 --> 00:09:01.810
+The result was, again, that all
+
+125
+00:09:01.810 --> 00:09:07.530
+ten samples from the Holy Quran clustered on their
+own on the left.
+
+126
+00:09:07.530 --> 00:09:11.550
+The remaining poetry clustered on the right.
+
+127
+00:09:12.160 --> 00:09:17.800
+There is another very important point I'd like to
+draw attention to:
+
+128
+00:09:17.800 --> 00:09:23.520
+the ten Pre-Islamic poetry samples clustered close
+to
+
+129
+00:09:23.520 --> 00:09:26.660
+the Umayyad period, but still formed their own
+group.
+
+130
+00:09:26.940 --> 00:09:30.680
+This means they have distinctive characteristics.
+
+131
+00:09:30.910 --> 00:09:35.850
+This proves that there really is Pre-Islamic poetry,
+
+132
+00:09:35.850 --> 00:09:38.390
+contrary to what Professor Taha Hussein said.
+
+133
+00:09:38.390 --> 00:09:42.450
+This issue should therefore be studied
+scientifically.
+
+134
+00:09:42.450 --> 00:09:47.950
+We should identify the features: the words, letters,
+or
+
+135
+00:09:47.950 --> 00:09:50.130
+the model used,
+
+136
+00:09:50.130 --> 00:09:53.310
+on which this diagram was based,
+
+137
+00:09:53.310 --> 00:09:56.510
+and which indicated that Pre-Islamic poetry has...
+
+138
+00:09:57.060 --> 00:10:00.740
+distinctive features that set it apart from the
+other periods.
+
+139
+00:10:01.020 --> 00:10:03.660
+The important question, then, is:
+
+140
+00:10:03.660 --> 00:10:06.920
+if we want to identify the features,
+
+141
+00:10:06.920 --> 00:10:11.060
+the words used in these models and diagrams
+
+142
+00:10:11.060 --> 00:10:15.340
+that distinguish the Quran from the other texts, and
+study them,
+
+143
+00:10:15.340 --> 00:10:20.500
+yes, we can do that, but using
+
+144
+00:10:20.500 --> 00:10:22.500
+other methods.
+
+145
+00:10:22.890 --> 00:10:26.810
+PCA is
+
+146
+00:10:26.930 --> 00:10:32.050
+the subject of the next slide.
+
+147
+00:10:32.760 --> 00:10:38.320
+With PCA, what we are trying to do is...
+
+148
+00:10:38.320 --> 00:10:43.860
+Previously, we examined a text through the hundred
+
+149
+00:10:43.860 --> 00:10:49.200
+words forming its vector, measuring its distance
+from the other vectors.
+
+150
+00:10:49.480 --> 00:10:54.260
+Now we want to look at these texts in just two
+dimensions.
+
+151
+00:10:54.260 --> 00:10:59.400
+That is why we use this technique.
+
+152
+00:10:59.400 --> 00:11:05.080
+There are groups of words which
+
+153
+00:11:05.080 --> 00:11:09.240
+occur more often in one group of texts and less
+often in the other,
+
+154
+00:11:09.240 --> 00:11:14.480
+according to the clusters. Here, for example, we
+have the Quran on
+
+155
+00:11:14.640 --> 00:11:18.400
+the left, surrounded by some of its distinguishing
+words.
+
+156
+00:11:18.910 --> 00:11:23.370
+On the right are the other poems and the words that
+distinguish them.
+
+157
+00:11:23.370 --> 00:11:28.890
+Some words are clear: for example, 'Allah' ('God'),
+on the left beside the Quran.
+
+158
+00:11:28.890 --> 00:11:30.450
+And 'al-dahr' ('time').
+
+159
+00:11:30.450 --> 00:11:35.750
+These are clear. But other words, such as
+demonstratives and so on,
+
+160
+00:11:35.750 --> 00:11:40.930
+need input and analysis from language specialists to
+understand
+
+161
+00:11:40.930 --> 00:11:46.250
+why they occur more here than in the other texts,
+and distinguish the Quran.
+
+162
+00:11:47.520 --> 00:11:51.490
+If we move to two-word sequences,
+
+163
+00:11:51.490 --> 00:11:57.110
+we again find different expressions in phrases or
+pairs of words.
+
+164
+00:11:57.270 --> 00:12:01.810
+The Holy Quran consistently differs in its
+expressions,
+
+165
+00:12:01.810 --> 00:12:03.470
+its words, and its vocabulary.
+
+166
+00:12:03.530 --> 00:12:09.090
+If we leave that analysis and move to sequences of
+letters,
+
+167
+00:12:09.090 --> 00:12:11.710
+starting with single letters, for example,
+
+168
+00:12:11.710 --> 00:12:14.210
+this is a result I think is very important.
+
+169
+00:12:14.210 --> 00:12:17.050
+We find that a number of letters appear
+
+170
+00:12:17.270 --> 00:12:18.790
+on the Quran's side
+
+171
+00:12:18.790 --> 00:12:20.830
+more than in the poetry.
+
+172
+00:12:20.830 --> 00:12:23.690
+The Quran used these letters more often.
+
+173
+00:12:23.690 --> 00:12:26.770
+I don't know why. Perhaps it comes from vocabulary
+
+174
+00:12:26.770 --> 00:12:30.550
+containing words that had been little used, or were
+unique to it.
+
+175
+00:12:30.550 --> 00:12:33.410
+They did not appear even in the later periods.
+
+176
+00:12:33.410 --> 00:12:36.430
+It was distinguished by these letters.
+
+177
+00:12:36.430 --> 00:12:37.910
+For example,
+
+178
+00:12:37.910 --> 00:12:40.190
+here is a comparison,
+
+179
+00:12:40.190 --> 00:12:41.690
+just to enlarge the picture,
+
+180
+00:12:41.690 --> 00:12:45.330
+between the Quran, Umayyad, Early Islamic, and
+Abbasid poetry. These are the same
+
+181
+00:12:45.720 --> 00:12:48.920
+letters that distinguished it from all the other
+periods:
+
+182
+00:12:48.920 --> 00:12:52.720
+mim, kaf, nun, ha, and dhal.
+
+183
+00:12:52.720 --> 00:12:54.500
+I don't know the explanation.
+
+184
+00:12:54.500 --> 00:12:56.000
+We need language specialists
+
+185
+00:12:56.000 --> 00:12:57.580
+to give us,
+
+186
+00:12:57.580 --> 00:12:59.000
+as they say,
+
+187
+00:12:59.000 --> 00:13:01.650
+an informed scholarly opinion.
+
+188
+00:13:01.650 --> 00:13:03.290
+Likewise, if we use two letters,
+
+189
+00:13:03.290 --> 00:13:05.190
+splitting the text into sequences
+
+190
+00:13:05.190 --> 00:13:09.790
+of two letters, we again find the Quran distinct and
+unique.
+
+191
+00:13:09.890 --> 00:13:12.310
+If we move to three letters,
+
+192
+00:13:12.310 --> 00:13:14.410
+we again find a different pattern.
+
+193
+00:13:14.890 --> 00:13:20.530
+If we move to seven letters, there is something to
+discuss here.
+
+194
+00:13:20.530 --> 00:13:26.310
+I noticed that prepositions attach to nouns more
+often in
+
+195
+00:13:26.310 --> 00:13:31.990
+the Quran. But in Pre-Islamic poetry, as I'll show
+on
+
+196
+00:13:31.990 --> 00:13:37.730
+the next slide, they were very rare. What appeared
+
+197
+00:13:37.730 --> 00:13:42.990
+more often, however, was prepositions with the
+particle, or
+
+198
+00:13:42.990 --> 00:13:44.530
+the definite article 'al-'.
+
+199
+00:13:44.850 --> 00:13:47.350
+These appeared frequently in the Quran.
+
+200
+00:13:47.350 --> 00:13:52.630
+I think the Quran then changed the way the language
+was used, because other
+
+201
+00:13:52.630 --> 00:13:54.050
+poetry began using them.
+
+202
+00:13:54.050 --> 00:13:59.830
+Over time, it clearly began using prepositions
+attached to 'al-'.
+
+203
+00:14:00.620 --> 00:14:06.370
+There is a view that, previously, prepositions did
+not
+
+204
+00:14:06.370 --> 00:14:09.310
+attach directly to nouns in this way.
+
+205
+00:14:09.310 --> 00:14:12.650
+The noun took the genitive, as in 'jamil al-wajh'
+('beautiful of face').
+
+206
+00:14:12.650 --> 00:14:14.230
+'Beautiful of face.'
+
+207
+00:14:14.230 --> 00:14:15.870
+Or, as the poet said:
+
+208
+00:14:16.240 --> 00:14:18.360
+'Whatever faults I may have,
+
+209
+00:14:18.360 --> 00:14:21.980
+my dog is timid and my camel calf is lean.'
+
+210
+00:14:24.180 --> 00:14:26.740
+The point is that the construction used to come like
+this.
+
+211
+00:14:26.740 --> 00:14:31.260
+This is one result that may support that view.
+
+212
+00:14:31.260 --> 00:14:36.680
+But we also need scientific and technical analysis
+from language
+
+213
+00:14:36.680 --> 00:14:41.360
+specialists. This should be put to them for further
+
+214
+00:14:41.360 --> 00:14:46.020
+discussion. In conclusion,
+
+215
+00:14:46.510 --> 00:14:49.850
+the Holy Quran's style is completely different from
+poetry.
+
+216
+00:14:49.850 --> 00:14:53.050
+It cannot be poetry in any way.
+
+217
+00:14:53.050 --> 00:14:54.950
+It differs in every characteristic,
+
+218
+00:14:54.950 --> 00:14:57.770
+every feature, whether letters or words,
+
+219
+00:14:57.770 --> 00:15:03.530
+or what we call parts or sequences of letters:
+
+220
+00:15:03.530 --> 00:15:05.750
+two or three letters, and so on.
+
+221
+00:15:05.970 --> 00:15:11.050
+The Quran's style is completely different from the
+various poetic
+
+222
+00:15:11.050 --> 00:15:15.230
+texts. And the Quran itself...
+
+223
+00:15:15.300 --> 00:15:20.940
+The Quran itself says in Surah Ya-Sin: 'We have not
+taught him poetry,
+
+224
+00:15:20.940 --> 00:15:23.760
+nor is it fitting for him. It is only a reminder and
+a clear Quran.'
+
+225
+00:15:23.800 --> 00:15:28.980
+It cannot be poetry. In al-Haqqah: 'It is not a
+poet's speech; little do you believe.'
+
+226
+00:15:29.000 --> 00:15:32.540
+And in al-Shu'ara: 'Or do they say: a poet, for whom
+we await the misfortunes of time?'
+
+227
+00:15:32.720 --> 00:15:35.860
+Let them wait until the Hour comes.
+
+228
+00:15:36.060 --> 00:15:38.900
+The Holy Quran will remain completely different,
+
+229
+00:15:39.000 --> 00:15:42.280
+from all poetry, all prose, and everything else.
+
+230
+00:15:42.500 --> 00:15:44.800
+It is a revelation from the Lord of all worlds.
+
+231
+00:15:44.860 --> 00:15:48.960
+May God bless our Prophet Muhammad, his family and
+companions, and grant them peace.
+
+232
+00:15:49.480 --> 00:15:51.880
+Peace be upon you, and God's mercy and blessings.

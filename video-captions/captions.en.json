@@ -1,0 +1,1394 @@
+[
+  {
+    "source_id": "1.1",
+    "start": 0.66,
+    "end": 2.22,
+    "text": "In God's name, the Compassionate, the Merciful."
+  },
+  {
+    "source_id": "1.2",
+    "start": 2.22,
+    "end": 3.92,
+    "text": "Praise be to God, Lord of all worlds."
+  },
+  {
+    "source_id": "1.3",
+    "start": 3.92,
+    "end": 7.0,
+    "text": "Peace and blessings upon the noblest of God's\ncreation,"
+  },
+  {
+    "source_id": "1.4",
+    "start": 7.0,
+    "end": 11.84,
+    "text": "our Prophet Muhammad, his family, companions, and\nfollowers until the Day of Judgment."
+  },
+  {
+    "source_id": "1.5",
+    "start": 12.26,
+    "end": 17.78,
+    "text": "Today, God willing, I will discuss the Holy Quran\nand"
+  },
+  {
+    "source_id": "1.6",
+    "start": 17.78,
+    "end": 23.34,
+    "text": "the author's fingerprint: how we can use it to\ndistinguish"
+  },
+  {
+    "source_id": "1.7",
+    "start": 23.34,
+    "end": 29.89,
+    "text": "between different writers. Let me begin by recalling\nthat when a messenger is sent,"
+  },
+  {
+    "source_id": "2.1",
+    "start": 30.32,
+    "end": 33.7,
+    "text": "God, exalted be He, sends him with two things:"
+  },
+  {
+    "source_id": "2.2",
+    "start": 33.7,
+    "end": 38.22,
+    "text": "a miracle showing that he is a messenger from God,"
+  },
+  {
+    "source_id": "2.3",
+    "start": 38.25,
+    "end": 41.91,
+    "text": "and the teachings he must convey to God's servants."
+  },
+  {
+    "source_id": "2.4",
+    "start": 42.07,
+    "end": 46.59,
+    "text": "Moses had his staff,"
+  },
+  {
+    "source_id": "2.5",
+    "start": 46.59,
+    "end": 50.53,
+    "text": "and the Torah. Jesus healed those born blind and\nthose with leprosy,"
+  },
+  {
+    "source_id": "2.6",
+    "start": 50.53,
+    "end": 52.61,
+    "text": "and he also had the Gospel."
+  },
+  {
+    "source_id": "2.7",
+    "start": 52.61,
+    "end": 58.73,
+    "text": "For the Prophet, peace be upon him, the miracle and\nthe teachings are one and the same."
+  },
+  {
+    "source_id": "3.1",
+    "start": 59.12,
+    "end": 60.96,
+    "text": "The Holy Quran is the miracle."
+  },
+  {
+    "source_id": "3.2",
+    "start": 63.18,
+    "end": 68.14,
+    "text": "The Quran itself challenged the Arabs to produce a\nsurah like it."
+  },
+  {
+    "source_id": "3.3",
+    "start": 68.32,
+    "end": 73.32,
+    "text": "God says: 'If you doubt what We have revealed"
+  },
+  {
+    "source_id": "3.4",
+    "start": 73.32,
+    "end": 79.1,
+    "text": "to Our servant, produce a surah like it, and call\nyour witnesses besides God,"
+  },
+  {
+    "source_id": "3.5",
+    "start": 79.1,
+    "end": 84.34,
+    "text": "if you are truthful.' Another verse says: 'Or do\nthey say"
+  },
+  {
+    "source_id": "3.6",
+    "start": 84.34,
+    "end": 88.52,
+    "text": "he invented it? Say: Then produce ten invented\nsurahs like it,"
+  },
+  {
+    "source_id": "4.1",
+    "start": 89.03,
+    "end": 92.31,
+    "text": "and call whoever you can besides God, if you are\ntruthful.'"
+  },
+  {
+    "source_id": "4.2",
+    "start": 92.79,
+    "end": 98.01,
+    "text": "Another verse says: 'If humans and jinn joined\ntogether to produce"
+  },
+  {
+    "source_id": "4.3",
+    "start": 98.01,
+    "end": 102.99,
+    "text": "the like of this Quran, they could not, even if they\nhelped one another.'"
+  },
+  {
+    "source_id": "4.4",
+    "start": 104.38,
+    "end": 109.26,
+    "text": "Now let us move straight to the content of this\npresentation."
+  },
+  {
+    "source_id": "4.5",
+    "start": 109.26,
+    "end": 114.94,
+    "text": "I'll briefly introduce the author's fingerprint and\nhow"
+  },
+  {
+    "source_id": "4.6",
+    "start": 114.94,
+    "end": 116.94,
+    "text": "we can extract it from different texts."
+  },
+  {
+    "source_id": "5.1",
+    "start": 117.58,
+    "end": 122.89,
+    "text": "We can use it to group texts automatically"
+  },
+  {
+    "source_id": "5.2",
+    "start": 122.89,
+    "end": 128.29,
+    "text": "by their author's fingerprint, or by the time"
+  },
+  {
+    "source_id": "5.3",
+    "start": 128.29,
+    "end": 130.54,
+    "text": "or period in which they were written."
+  },
+  {
+    "source_id": "5.4",
+    "start": 131.79,
+    "end": 136.27,
+    "text": "After this introduction, I'll move to an experiment"
+  },
+  {
+    "source_id": "5.5",
+    "start": 136.27,
+    "end": 140.95,
+    "text": "with prose: an experiment involving ten authors."
+  },
+  {
+    "source_id": "5.6",
+    "start": 141.05,
+    "end": 145.99,
+    "text": "Then I'll move to the experiment with the Holy Quran\nand Arabic poetry."
+  },
+  {
+    "source_id": "6.1",
+    "start": 147.09,
+    "end": 151.23,
+    "text": "I'll finish with a conclusion and the findings."
+  },
+  {
+    "source_id": "6.2",
+    "start": 152.26,
+    "end": 157.48,
+    "text": "Stylometry, or computational stylistics, as we might\ncall it,"
+  },
+  {
+    "source_id": "6.3",
+    "start": 157.48,
+    "end": 161.84,
+    "text": "is a technique we can use on a computer"
+  },
+  {
+    "source_id": "6.4",
+    "start": 161.87,
+    "end": 164.55,
+    "text": "to identify an author's fingerprint."
+  },
+  {
+    "source_id": "6.5",
+    "start": 164.55,
+    "end": 170.19,
+    "text": "It can also identify the different periods or times"
+  },
+  {
+    "source_id": "6.6",
+    "start": 170.19,
+    "end": 174.27,
+    "text": "when these works were written,"
+  },
+  {
+    "source_id": "6.7",
+    "start": 174.27,
+    "end": 177.01,
+    "text": "whether poetry or prose."
+  },
+  {
+    "source_id": "7.1",
+    "start": 178.63,
+    "end": 182.19,
+    "text": "This algorithm uses hierarchical clustering."
+  },
+  {
+    "source_id": "7.2",
+    "start": 182.35,
+    "end": 187.89,
+    "text": "It extracts the most frequent words from the texts,"
+  },
+  {
+    "source_id": "7.3",
+    "start": 187.89,
+    "end": 193.57,
+    "text": "because these are used in different kinds of\nwriting,"
+  },
+  {
+    "source_id": "7.4",
+    "start": 193.57,
+    "end": 195.13,
+    "text": "regardless of the subject."
+  },
+  {
+    "source_id": "7.5",
+    "start": 195.13,
+    "end": 200.43,
+    "text": "The same writer uses the same prepositions,\nconjunctions, and similar words"
+  },
+  {
+    "source_id": "7.6",
+    "start": 200.43,
+    "end": 202.65,
+    "text": "when writing two different texts:"
+  },
+  {
+    "source_id": "7.7",
+    "start": 202.65,
+    "end": 204.63,
+    "text": "one about economics and another about politics."
+  },
+  {
+    "source_id": "7.8",
+    "start": 204.71,
+    "end": 207.33,
+    "text": "These words form"
+  },
+  {
+    "source_id": "8.1",
+    "start": 207.85,
+    "end": 212.63,
+    "text": "the mathematical vector that represents the author's\nfingerprint."
+  },
+  {
+    "source_id": "8.2",
+    "start": 213.01,
+    "end": 218.53,
+    "text": "We then use established distance measures to group\nthe texts"
+  },
+  {
+    "source_id": "8.3",
+    "start": 218.53,
+    "end": 223.83,
+    "text": "into clusters based on similarities in their writing"
+  },
+  {
+    "source_id": "8.4",
+    "start": 223.83,
+    "end": 229.41,
+    "text": "style. These algorithms treat a text"
+  },
+  {
+    "source_id": "8.5",
+    "start": 229.41,
+    "end": 230.93,
+    "text": "as a mathematical vector."
+  },
+  {
+    "source_id": "8.6",
+    "start": 231.05,
+    "end": 236.15,
+    "text": "For example, the blue vector in this diagram"
+  },
+  {
+    "source_id": "8.7",
+    "start": 236.15,
+    "end": 238.81,
+    "text": "is represented in three dimensions."
+  },
+  {
+    "source_id": "9.1",
+    "start": 243.18,
+    "end": 248.86,
+    "text": "In the same way, we generate mathematical vectors\nfor all the texts,"
+  },
+  {
+    "source_id": "9.2",
+    "start": 248.86,
+    "end": 254.44,
+    "text": "with 100 dimensions. These vectors come from the\nmost"
+  },
+  {
+    "source_id": "9.3",
+    "start": 254.44,
+    "end": 258.1,
+    "text": "frequent words in the corpus: the collection of\ntexts being analyzed."
+  },
+  {
+    "source_id": "9.4",
+    "start": 260.26,
+    "end": 264.92,
+    "text": "For example, here are the vectors generated"
+  },
+  {
+    "source_id": "9.5",
+    "start": 264.92,
+    "end": 269.34,
+    "text": "for the texts labeled H1 and onward."
+  },
+  {
+    "source_id": "10.1",
+    "start": 276.9,
+    "end": 282.38,
+    "text": "The algorithm measures the distances between the\ngenerated vectors,"
+  },
+  {
+    "source_id": "10.2",
+    "start": 282.38,
+    "end": 284.56,
+    "text": "and merges the closest ones."
+  },
+  {
+    "source_id": "10.3",
+    "start": 284.72,
+    "end": 290.34,
+    "text": "Then"
+  },
+  {
+    "source_id": "10.4",
+    "start": 290.34,
+    "end": 293.86,
+    "text": "it merges entire groups according to similarity."
+  },
+  {
+    "source_id": "10.5",
+    "start": 293.86,
+    "end": 296.52,
+    "text": "A different or outlying text, such as J1,"
+  },
+  {
+    "source_id": "10.6",
+    "start": 296.52,
+    "end": 298.24,
+    "text": "ends up in a different cluster."
+  },
+  {
+    "source_id": "11.1",
+    "start": 300.2,
+    "end": 302.56,
+    "text": "This is a very important experiment:"
+  },
+  {
+    "source_id": "11.2",
+    "start": 302.56,
+    "end": 304.88,
+    "text": "the experiment with ten travelers."
+  },
+  {
+    "source_id": "11.3",
+    "start": 305.04,
+    "end": 308.48,
+    "text": "We used ten different books,"
+  },
+  {
+    "source_id": "11.4",
+    "start": 308.48,
+    "end": 312.34,
+    "text": "by writers who lived at roughly the same time,"
+  },
+  {
+    "source_id": "11.5",
+    "start": 312.34,
+    "end": 315.4,
+    "text": "and wrote about the same subject."
+  },
+  {
+    "source_id": "11.6",
+    "start": 315.4,
+    "end": 320.44,
+    "text": "We wanted to see whether we could use"
+  },
+  {
+    "source_id": "11.7",
+    "start": 320.44,
+    "end": 324.84,
+    "text": "the most frequent words to distinguish between these\ndifferent writings."
+  },
+  {
+    "source_id": "11.8",
+    "start": 325.0,
+    "end": 328.72,
+    "text": "We took about ten samples from each book."
+  },
+  {
+    "source_id": "12.1",
+    "start": 329.49,
+    "end": 333.13,
+    "text": "The samples were selected randomly."
+  },
+  {
+    "source_id": "12.2",
+    "start": 333.13,
+    "end": 334.93,
+    "text": "So, from each book,"
+  },
+  {
+    "source_id": "12.3",
+    "start": 334.93,
+    "end": 336.85,
+    "text": "we had passages from the start, the end,"
+  },
+  {
+    "source_id": "12.4",
+    "start": 336.85,
+    "end": 342.27,
+    "text": "and the middle. Each sample was preprocessed so that"
+  },
+  {
+    "source_id": "12.5",
+    "start": 342.27,
+    "end": 346.17,
+    "text": "the final comparison used specific features,"
+  },
+  {
+    "source_id": "12.6",
+    "start": 346.17,
+    "end": 347.91,
+    "text": "whether letters or words:"
+  },
+  {
+    "source_id": "12.7",
+    "start": 347.91,
+    "end": 351.63,
+    "text": "the same words occurring in the different samples."
+  },
+  {
+    "source_id": "12.8",
+    "start": 351.63,
+    "end": 356.95,
+    "text": "On that basis, we carried out the comparison between\nthe vectors."
+  },
+  {
+    "source_id": "13.1",
+    "start": 357.31,
+    "end": 362.7,
+    "text": "generated from these samples. In the first\nexperiment, we found that"
+  },
+  {
+    "source_id": "13.2",
+    "start": 362.7,
+    "end": 368.36,
+    "text": "the clusters were unclear, and the samples had been\ngrouped"
+  },
+  {
+    "source_id": "13.3",
+    "start": 368.36,
+    "end": 372.98,
+    "text": "incorrectly, because the text passages were very\nshort."
+  },
+  {
+    "source_id": "13.4",
+    "start": 372.98,
+    "end": 376.72,
+    "text": "We used about 500 words or fewer from each author."
+  },
+  {
+    "source_id": "13.5",
+    "start": 376.72,
+    "end": 382.24,
+    "text": "As you can see, the clusters were unclear. But in"
+  },
+  {
+    "source_id": "13.6",
+    "start": 382.24,
+    "end": 386.72,
+    "text": "the second experiment, we increased the word count\nuntil"
+  },
+  {
+    "source_id": "14.1",
+    "start": 386.99,
+    "end": 389.29,
+    "text": "each sample had about 2,000 words."
+  },
+  {
+    "source_id": "14.2",
+    "start": 389.29,
+    "end": 392.51,
+    "text": "The clustering then looked different."
+  },
+  {
+    "source_id": "14.3",
+    "start": 393.2,
+    "end": 398.34,
+    "text": "As you can see, the clusters became very clear: the\ntexts grouped by"
+  },
+  {
+    "source_id": "14.4",
+    "start": 398.34,
+    "end": 403.78,
+    "text": "author. This shows that it is possible to group\ndifferent"
+  },
+  {
+    "source_id": "14.5",
+    "start": 403.78,
+    "end": 409.3,
+    "text": "writings by author using the words"
+  },
+  {
+    "source_id": "14.6",
+    "start": 409.3,
+    "end": 412.69,
+    "text": "that occur most frequently."
+  },
+  {
+    "source_id": "14.7",
+    "start": 412.69,
+    "end": 418.35,
+    "text": "The second experiment is the most important to me,\nand the subject of this presentation:"
+  },
+  {
+    "source_id": "15.1",
+    "start": 418.7,
+    "end": 421.72,
+    "text": "comparing the Holy Quran with Arabic poetry."
+  },
+  {
+    "source_id": "15.2",
+    "start": 421.72,
+    "end": 425.08,
+    "text": "The Prophet, peace be upon him, was accused of being\na poet."
+  },
+  {
+    "source_id": "15.3",
+    "start": 425.08,
+    "end": 428.66,
+    "text": "The challenge was to produce something like this\nQuran,"
+  },
+  {
+    "source_id": "15.4",
+    "start": 428.66,
+    "end": 430.3,
+    "text": "and they failed to do so."
+  },
+  {
+    "source_id": "15.5",
+    "start": 430.3,
+    "end": 434.74,
+    "text": "They composed metrical verse, rhyming poetry, and so\non,"
+  },
+  {
+    "source_id": "15.6",
+    "start": 434.74,
+    "end": 437.76,
+    "text": "but could not produce anything resembling the Quran."
+  },
+  {
+    "source_id": "15.7",
+    "start": 438.02,
+    "end": 443.68,
+    "text": "For this experiment, we collected poetry from the"
+  },
+  {
+    "source_id": "15.8",
+    "start": 443.68,
+    "end": 445.44,
+    "text": "Pre-Islamic period to the Modern period."
+  },
+  {
+    "source_id": "16.1",
+    "start": 447.6,
+    "end": 449.86,
+    "text": "A very large collection, or corpus,"
+  },
+  {
+    "source_id": "16.2",
+    "start": 449.89,
+    "end": 454.75,
+    "text": "so that we could compare these texts with the Holy\nQuran."
+  },
+  {
+    "source_id": "16.3",
+    "start": 455.76,
+    "end": 458.2,
+    "text": "As you can see here,"
+  },
+  {
+    "source_id": "16.4",
+    "start": 458.2,
+    "end": 463.58,
+    "text": "the corpus covers various periods, from Pre-Islamic,"
+  },
+  {
+    "source_id": "16.5",
+    "start": 463.58,
+    "end": 469.18,
+    "text": "Early Islamic, Umayyad, Abbasid, Andalusian,\nAyyubid, Fatimid, and Mamluk,"
+  },
+  {
+    "source_id": "16.6",
+    "start": 469.18,
+    "end": 470.7,
+    "text": "to Ottoman and Modern."
+  },
+  {
+    "source_id": "16.7",
+    "start": 472.39,
+    "end": 478.3,
+    "text": "We collected these groups of poems by different\nwriters."
+  },
+  {
+    "source_id": "17.1",
+    "start": 478.72,
+    "end": 483.42,
+    "text": "The corpus contained approximately"
+  },
+  {
+    "source_id": "17.2",
+    "start": 483.42,
+    "end": 485.94,
+    "text": "ten million words,"
+  },
+  {
+    "source_id": "17.3",
+    "start": 485.94,
+    "end": 488.56,
+    "text": "nearly six million lines of poetry,"
+  },
+  {
+    "source_id": "17.4",
+    "start": 488.56,
+    "end": 492.7,
+    "text": "by around a thousand poets from different historical\nperiods."
+  },
+  {
+    "source_id": "17.5",
+    "start": 493.48,
+    "end": 498.02,
+    "text": "The first result, when we used the complete texts,"
+  },
+  {
+    "source_id": "17.6",
+    "start": 498.05,
+    "end": 503.07,
+    "text": "was that, as you can see, there are two clusters."
+  },
+  {
+    "source_id": "17.7",
+    "start": 503.23,
+    "end": 505.49,
+    "text": "One contains the Holy Quran alone."
+  },
+  {
+    "source_id": "18.1",
+    "start": 505.93,
+    "end": 511.23,
+    "text": "The other, on the right, contains all the poetry\nfrom the different periods."
+  },
+  {
+    "source_id": "18.2",
+    "start": 511.23,
+    "end": 515.89,
+    "text": "You can see that Umayyad poetry resembles\nPre-Islamic poetry,"
+  },
+  {
+    "source_id": "18.3",
+    "start": 515.89,
+    "end": 518.83,
+    "text": "and these, in turn, resemble Early Islamic poetry."
+  },
+  {
+    "source_id": "18.4",
+    "start": 518.83,
+    "end": 524.37,
+    "text": "The other periods then group into different"
+  },
+  {
+    "source_id": "18.5",
+    "start": 524.37,
+    "end": 528.79,
+    "text": "clusters. The Holy Quran is clearly distinct from\nthese texts."
+  },
+  {
+    "source_id": "18.6",
+    "start": 529.02,
+    "end": 530.96,
+    "text": "Then, when we took samples,"
+  },
+  {
+    "source_id": "18.7",
+    "start": 530.96,
+    "end": 534.68,
+    "text": "we took samples from each period."
+  },
+  {
+    "source_id": "19.1",
+    "start": 536.01,
+    "end": 541.81,
+    "text": "The result was, again, that all"
+  },
+  {
+    "source_id": "19.2",
+    "start": 541.81,
+    "end": 547.53,
+    "text": "ten samples from the Holy Quran clustered on their\nown on the left."
+  },
+  {
+    "source_id": "19.3",
+    "start": 547.53,
+    "end": 551.55,
+    "text": "The remaining poetry clustered on the right."
+  },
+  {
+    "source_id": "19.4",
+    "start": 552.16,
+    "end": 557.8,
+    "text": "There is another very important point I'd like to\ndraw attention to:"
+  },
+  {
+    "source_id": "19.5",
+    "start": 557.8,
+    "end": 563.52,
+    "text": "the ten Pre-Islamic poetry samples clustered close\nto"
+  },
+  {
+    "source_id": "19.6",
+    "start": 563.52,
+    "end": 566.66,
+    "text": "the Umayyad period, but still formed their own\ngroup."
+  },
+  {
+    "source_id": "20.1",
+    "start": 566.94,
+    "end": 570.68,
+    "text": "This means they have distinctive characteristics."
+  },
+  {
+    "source_id": "20.2",
+    "start": 570.91,
+    "end": 575.85,
+    "text": "This proves that there really is Pre-Islamic poetry,"
+  },
+  {
+    "source_id": "20.3",
+    "start": 575.85,
+    "end": 578.39,
+    "text": "contrary to what Professor Taha Hussein said."
+  },
+  {
+    "source_id": "20.4",
+    "start": 578.39,
+    "end": 582.45,
+    "text": "This issue should therefore be studied\nscientifically."
+  },
+  {
+    "source_id": "20.5",
+    "start": 582.45,
+    "end": 587.95,
+    "text": "We should identify the features: the words, letters,\nor"
+  },
+  {
+    "source_id": "20.6",
+    "start": 587.95,
+    "end": 590.13,
+    "text": "the model used,"
+  },
+  {
+    "source_id": "20.7",
+    "start": 590.13,
+    "end": 593.31,
+    "text": "on which this diagram was based,"
+  },
+  {
+    "source_id": "20.8",
+    "start": 593.31,
+    "end": 596.51,
+    "text": "and which indicated that Pre-Islamic poetry has..."
+  },
+  {
+    "source_id": "21.1",
+    "start": 597.06,
+    "end": 600.74,
+    "text": "distinctive features that set it apart from the\nother periods."
+  },
+  {
+    "source_id": "21.2",
+    "start": 601.02,
+    "end": 603.66,
+    "text": "The important question, then, is:"
+  },
+  {
+    "source_id": "21.3",
+    "start": 603.66,
+    "end": 606.92,
+    "text": "if we want to identify the features,"
+  },
+  {
+    "source_id": "21.4",
+    "start": 606.92,
+    "end": 611.06,
+    "text": "the words used in these models and diagrams"
+  },
+  {
+    "source_id": "21.5",
+    "start": 611.06,
+    "end": 615.34,
+    "text": "that distinguish the Quran from the other texts, and\nstudy them,"
+  },
+  {
+    "source_id": "21.6",
+    "start": 615.34,
+    "end": 620.5,
+    "text": "yes, we can do that, but using"
+  },
+  {
+    "source_id": "21.7",
+    "start": 620.5,
+    "end": 622.5,
+    "text": "other methods."
+  },
+  {
+    "source_id": "22.1",
+    "start": 622.89,
+    "end": 626.81,
+    "text": "PCA is"
+  },
+  {
+    "source_id": "22.2",
+    "start": 626.93,
+    "end": 632.05,
+    "text": "the subject of the next slide."
+  },
+  {
+    "source_id": "22.3",
+    "start": 632.76,
+    "end": 638.32,
+    "text": "With PCA, what we are trying to do is..."
+  },
+  {
+    "source_id": "22.4",
+    "start": 638.32,
+    "end": 643.86,
+    "text": "Previously, we examined a text through the hundred"
+  },
+  {
+    "source_id": "22.5",
+    "start": 643.86,
+    "end": 649.2,
+    "text": "words forming its vector, measuring its distance\nfrom the other vectors."
+  },
+  {
+    "source_id": "23.1",
+    "start": 649.48,
+    "end": 654.26,
+    "text": "Now we want to look at these texts in just two\ndimensions."
+  },
+  {
+    "source_id": "23.2",
+    "start": 654.26,
+    "end": 659.4,
+    "text": "That is why we use this technique."
+  },
+  {
+    "source_id": "23.3",
+    "start": 659.4,
+    "end": 665.08,
+    "text": "There are groups of words which"
+  },
+  {
+    "source_id": "23.4",
+    "start": 665.08,
+    "end": 669.24,
+    "text": "occur more often in one group of texts and less\noften in the other,"
+  },
+  {
+    "source_id": "23.5",
+    "start": 669.24,
+    "end": 674.48,
+    "text": "according to the clusters. Here, for example, we\nhave the Quran on"
+  },
+  {
+    "source_id": "23.6",
+    "start": 674.64,
+    "end": 678.4,
+    "text": "the left, surrounded by some of its distinguishing\nwords."
+  },
+  {
+    "source_id": "24.1",
+    "start": 678.91,
+    "end": 683.37,
+    "text": "On the right are the other poems and the words that\ndistinguish them."
+  },
+  {
+    "source_id": "24.2",
+    "start": 683.37,
+    "end": 688.89,
+    "text": "Some words are clear: for example, 'Allah' ('God'),\non the left beside the Quran."
+  },
+  {
+    "source_id": "24.3",
+    "start": 688.89,
+    "end": 690.45,
+    "text": "And 'al-dahr' ('time')."
+  },
+  {
+    "source_id": "24.4",
+    "start": 690.45,
+    "end": 695.75,
+    "text": "These are clear. But other words, such as\ndemonstratives and so on,"
+  },
+  {
+    "source_id": "24.5",
+    "start": 695.75,
+    "end": 700.93,
+    "text": "need input and analysis from language specialists to\nunderstand"
+  },
+  {
+    "source_id": "24.6",
+    "start": 700.93,
+    "end": 706.25,
+    "text": "why they occur more here than in the other texts,\nand distinguish the Quran."
+  },
+  {
+    "source_id": "25.1",
+    "start": 707.52,
+    "end": 711.49,
+    "text": "If we move to two-word sequences,"
+  },
+  {
+    "source_id": "25.2",
+    "start": 711.49,
+    "end": 717.11,
+    "text": "we again find different expressions in phrases or\npairs of words."
+  },
+  {
+    "source_id": "25.3",
+    "start": 717.27,
+    "end": 721.81,
+    "text": "The Holy Quran consistently differs in its\nexpressions,"
+  },
+  {
+    "source_id": "25.4",
+    "start": 721.81,
+    "end": 723.47,
+    "text": "its words, and its vocabulary."
+  },
+  {
+    "source_id": "25.5",
+    "start": 723.53,
+    "end": 729.09,
+    "text": "If we leave that analysis and move to sequences of\nletters,"
+  },
+  {
+    "source_id": "25.6",
+    "start": 729.09,
+    "end": 731.71,
+    "text": "starting with single letters, for example,"
+  },
+  {
+    "source_id": "25.7",
+    "start": 731.71,
+    "end": 734.21,
+    "text": "this is a result I think is very important."
+  },
+  {
+    "source_id": "25.8",
+    "start": 734.21,
+    "end": 737.05,
+    "text": "We find that a number of letters appear"
+  },
+  {
+    "source_id": "26.1",
+    "start": 737.27,
+    "end": 738.79,
+    "text": "on the Quran's side"
+  },
+  {
+    "source_id": "26.2",
+    "start": 738.79,
+    "end": 740.83,
+    "text": "more than in the poetry."
+  },
+  {
+    "source_id": "26.3",
+    "start": 740.83,
+    "end": 743.69,
+    "text": "The Quran used these letters more often."
+  },
+  {
+    "source_id": "26.4",
+    "start": 743.69,
+    "end": 746.77,
+    "text": "I don't know why. Perhaps it comes from vocabulary"
+  },
+  {
+    "source_id": "26.5",
+    "start": 746.77,
+    "end": 750.55,
+    "text": "containing words that had been little used, or were\nunique to it."
+  },
+  {
+    "source_id": "26.6",
+    "start": 750.55,
+    "end": 753.41,
+    "text": "They did not appear even in the later periods."
+  },
+  {
+    "source_id": "26.7",
+    "start": 753.41,
+    "end": 756.43,
+    "text": "It was distinguished by these letters."
+  },
+  {
+    "source_id": "26.8",
+    "start": 756.43,
+    "end": 757.91,
+    "text": "For example,"
+  },
+  {
+    "source_id": "26.9",
+    "start": 757.91,
+    "end": 760.19,
+    "text": "here is a comparison,"
+  },
+  {
+    "source_id": "26.10",
+    "start": 760.19,
+    "end": 761.69,
+    "text": "just to enlarge the picture,"
+  },
+  {
+    "source_id": "26.11",
+    "start": 761.69,
+    "end": 765.33,
+    "text": "between the Quran, Umayyad, Early Islamic, and\nAbbasid poetry. These are the same"
+  },
+  {
+    "source_id": "27.1",
+    "start": 765.72,
+    "end": 768.92,
+    "text": "letters that distinguished it from all the other\nperiods:"
+  },
+  {
+    "source_id": "27.2",
+    "start": 768.92,
+    "end": 772.72,
+    "text": "mim, kaf, nun, ha, and dhal."
+  },
+  {
+    "source_id": "27.3",
+    "start": 772.72,
+    "end": 774.5,
+    "text": "I don't know the explanation."
+  },
+  {
+    "source_id": "27.4",
+    "start": 774.5,
+    "end": 776.0,
+    "text": "We need language specialists"
+  },
+  {
+    "source_id": "27.5",
+    "start": 776.0,
+    "end": 777.58,
+    "text": "to give us,"
+  },
+  {
+    "source_id": "27.6",
+    "start": 777.58,
+    "end": 779.0,
+    "text": "as they say,"
+  },
+  {
+    "source_id": "27.7",
+    "start": 779.0,
+    "end": 781.65,
+    "text": "an informed scholarly opinion."
+  },
+  {
+    "source_id": "27.8",
+    "start": 781.65,
+    "end": 783.29,
+    "text": "Likewise, if we use two letters,"
+  },
+  {
+    "source_id": "27.9",
+    "start": 783.29,
+    "end": 785.19,
+    "text": "splitting the text into sequences"
+  },
+  {
+    "source_id": "27.10",
+    "start": 785.19,
+    "end": 789.79,
+    "text": "of two letters, we again find the Quran distinct and\nunique."
+  },
+  {
+    "source_id": "27.11",
+    "start": 789.89,
+    "end": 792.31,
+    "text": "If we move to three letters,"
+  },
+  {
+    "source_id": "27.12",
+    "start": 792.31,
+    "end": 794.41,
+    "text": "we again find a different pattern."
+  },
+  {
+    "source_id": "28.1",
+    "start": 794.89,
+    "end": 800.53,
+    "text": "If we move to seven letters, there is something to\ndiscuss here."
+  },
+  {
+    "source_id": "28.2",
+    "start": 800.53,
+    "end": 806.31,
+    "text": "I noticed that prepositions attach to nouns more\noften in"
+  },
+  {
+    "source_id": "28.3",
+    "start": 806.31,
+    "end": 811.99,
+    "text": "the Quran. But in Pre-Islamic poetry, as I'll show\non"
+  },
+  {
+    "source_id": "28.4",
+    "start": 811.99,
+    "end": 817.73,
+    "text": "the next slide, they were very rare. What appeared"
+  },
+  {
+    "source_id": "28.5",
+    "start": 817.73,
+    "end": 822.99,
+    "text": "more often, however, was prepositions with the\nparticle, or"
+  },
+  {
+    "source_id": "28.6",
+    "start": 822.99,
+    "end": 824.53,
+    "text": "the definite article 'al-'."
+  },
+  {
+    "source_id": "29.1",
+    "start": 824.85,
+    "end": 827.35,
+    "text": "These appeared frequently in the Quran."
+  },
+  {
+    "source_id": "29.2",
+    "start": 827.35,
+    "end": 832.63,
+    "text": "I think the Quran then changed the way the language\nwas used, because other"
+  },
+  {
+    "source_id": "29.3",
+    "start": 832.63,
+    "end": 834.05,
+    "text": "poetry began using them."
+  },
+  {
+    "source_id": "29.4",
+    "start": 834.05,
+    "end": 839.83,
+    "text": "Over time, it clearly began using prepositions\nattached to 'al-'."
+  },
+  {
+    "source_id": "29.5",
+    "start": 840.62,
+    "end": 846.37,
+    "text": "There is a view that, previously, prepositions did\nnot"
+  },
+  {
+    "source_id": "29.6",
+    "start": 846.37,
+    "end": 849.31,
+    "text": "attach directly to nouns in this way."
+  },
+  {
+    "source_id": "29.7",
+    "start": 849.31,
+    "end": 852.65,
+    "text": "The noun took the genitive, as in 'jamil al-wajh'\n('beautiful of face')."
+  },
+  {
+    "source_id": "29.8",
+    "start": 852.65,
+    "end": 854.23,
+    "text": "'Beautiful of face.'"
+  },
+  {
+    "source_id": "29.9",
+    "start": 854.23,
+    "end": 855.87,
+    "text": "Or, as the poet said:"
+  },
+  {
+    "source_id": "30.1",
+    "start": 856.24,
+    "end": 858.36,
+    "text": "'Whatever faults I may have,"
+  },
+  {
+    "source_id": "30.2",
+    "start": 858.36,
+    "end": 861.98,
+    "text": "my dog is timid and my camel calf is lean.'"
+  },
+  {
+    "source_id": "30.3",
+    "start": 864.18,
+    "end": 866.74,
+    "text": "The point is that the construction used to come like\nthis."
+  },
+  {
+    "source_id": "30.4",
+    "start": 866.74,
+    "end": 871.26,
+    "text": "This is one result that may support that view."
+  },
+  {
+    "source_id": "30.5",
+    "start": 871.26,
+    "end": 876.68,
+    "text": "But we also need scientific and technical analysis\nfrom language"
+  },
+  {
+    "source_id": "30.6",
+    "start": 876.68,
+    "end": 881.36,
+    "text": "specialists. This should be put to them for further"
+  },
+  {
+    "source_id": "30.7",
+    "start": 881.36,
+    "end": 886.02,
+    "text": "discussion. In conclusion,"
+  },
+  {
+    "source_id": "31.1",
+    "start": 886.51,
+    "end": 889.85,
+    "text": "the Holy Quran's style is completely different from\npoetry."
+  },
+  {
+    "source_id": "31.2",
+    "start": 889.85,
+    "end": 893.05,
+    "text": "It cannot be poetry in any way."
+  },
+  {
+    "source_id": "31.3",
+    "start": 893.05,
+    "end": 894.95,
+    "text": "It differs in every characteristic,"
+  },
+  {
+    "source_id": "31.4",
+    "start": 894.95,
+    "end": 897.77,
+    "text": "every feature, whether letters or words,"
+  },
+  {
+    "source_id": "31.5",
+    "start": 897.77,
+    "end": 903.53,
+    "text": "or what we call parts or sequences of letters:"
+  },
+  {
+    "source_id": "31.6",
+    "start": 903.53,
+    "end": 905.75,
+    "text": "two or three letters, and so on."
+  },
+  {
+    "source_id": "31.7",
+    "start": 905.97,
+    "end": 911.05,
+    "text": "The Quran's style is completely different from the\nvarious poetic"
+  },
+  {
+    "source_id": "31.8",
+    "start": 911.05,
+    "end": 915.23,
+    "text": "texts. And the Quran itself..."
+  },
+  {
+    "source_id": "32.1",
+    "start": 915.3,
+    "end": 920.94,
+    "text": "The Quran itself says in Surah Ya-Sin: 'We have not\ntaught him poetry,"
+  },
+  {
+    "source_id": "32.2",
+    "start": 920.94,
+    "end": 923.76,
+    "text": "nor is it fitting for him. It is only a reminder and\na clear Quran.'"
+  },
+  {
+    "source_id": "32.3",
+    "start": 923.8,
+    "end": 928.98,
+    "text": "It cannot be poetry. In al-Haqqah: 'It is not a\npoet's speech; little do you believe.'"
+  },
+  {
+    "source_id": "33.1",
+    "start": 929.0,
+    "end": 932.54,
+    "text": "And in al-Shu'ara: 'Or do they say: a poet, for whom\nwe await the misfortunes of time?'"
+  },
+  {
+    "source_id": "33.2",
+    "start": 932.72,
+    "end": 935.86,
+    "text": "Let them wait until the Hour comes."
+  },
+  {
+    "source_id": "33.3",
+    "start": 936.06,
+    "end": 938.9,
+    "text": "The Holy Quran will remain completely different,"
+  },
+  {
+    "source_id": "33.4",
+    "start": 939.0,
+    "end": 942.28,
+    "text": "from all poetry, all prose, and everything else."
+  },
+  {
+    "source_id": "34.1",
+    "start": 942.5,
+    "end": 944.8,
+    "text": "It is a revelation from the Lord of all worlds."
+  },
+  {
+    "source_id": "34.2",
+    "start": 944.86,
+    "end": 948.96,
+    "text": "May God bless our Prophet Muhammad, his family and\ncompanions, and grant them peace."
+  },
+  {
+    "source_id": "35.1",
+    "start": 949.48,
+    "end": 951.88,
+    "text": "Peace be upon you, and God's mercy and blessings."
+  }
+]

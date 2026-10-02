@@ -1,0 +1,11 @@
+{
+  "source_video": "\u0627\u0644\u0642\u0631\u0622\u0646 \u0627\u0644\u0643\u0631\u064a\u0645 \u0648\u062a\u062d\u062f\u064a \u0627\u0644\u0634\u0639\u0631\u0627\u0621 \u060c \u062e\u0648\u0627\u0631\u0632\u0645\u064a\u0629 \u0627\u0644\u062a\u062c\u0645\u064a\u0639 \u0627\u0644\u0647\u0631\u0645\u064a.mp4",
+  "source_sha256": "ae2a3e4f8155a323e09765e4de3e5d7273479e0c803225d7434a1f50c3f7de33",
+  "duration_seconds": 954.479456,
+  "source_segments": 35,
+  "english_cues": 232,
+  "source_language": "ar",
+  "caption_language": "en",
+  "translation": "English translation edited from the local Arabic speech transcript.",
+  "audio": "Original Arabic audio retained."
+}

@@ -1,5 +1,8 @@
 """End-to-end check: pip install playwright; requires Google Chrome."""
 from pathlib import Path
+import csv
+import io
+import json
 from playwright.sync_api import sync_playwright
 
 artifacts=Path(__file__).resolve().parents[1]/'test-artifacts'
@@ -112,6 +115,24 @@ with sync_playwright() as p:
         feature_names=page.evaluate('result.feature_names')
         if feature=='chargrams': assert all(len(name)==n for name in feature_names)
         else: assert all(len(name.split())==n for name in feature_names)
+        raw_labels=page.evaluate('result.features.map(f=>f.name)')
+        displayed_labels=page.locator('#feature-rows .arabic').all_text_contents()
+        assert displayed_labels==[name.replace(' ', '␣') for name in raw_labels]
+        assert page.locator('#feature-space-note').is_visible()==any(' ' in name for name in raw_labels)
+        assert page.locator('.pca-feature text').all_text_contents()==[
+            name.replace(' ', '␣') for name in page.evaluate('result.pca_features.map(f=>f.name)')]
+        if option=='char3':
+            # Features that looked identical must retain distinct visible boundaries.
+            pairs=[(i,j) for i,a in enumerate(raw_labels) for j,b in enumerate(raw_labels)
+                   if i<j and a.strip()==b.strip() and a!=b]
+            assert pairs, 'Exercise real features differing only by space position'
+            assert all(displayed_labels[i]!=displayed_labels[j] for i,j in pairs)
+            for button in ['download','csv-export','svg-export']:
+                with page.expect_download() as info: page.locator('#'+button).click()
+                text=Path(info.value.path()).read_text(encoding='utf-8-sig')
+                if button=='download': assert json.loads(text)['feature_names']==feature_names
+                elif button=='csv-export': assert next(csv.reader(io.StringIO(text)))[2:]==feature_names
+                else: assert '␣' in text
         assert page.locator('.pca-feature').count()>0
     print('All seven feature sets verified',flush=True)
 

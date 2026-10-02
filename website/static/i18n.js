@@ -4,6 +4,7 @@ try { if (localStorage.getItem('arabic-stylometry-language') === 'ar') language 
 
 // English phrases are stable keys. Parameters are substituted after translation.
 const arabic = {
+  '␣ marks each space, including before or after a word. Arabic features read from right to left.': 'يرمز ␣ إلى كل مسافة، بما فيها المسافة قبل الكلمة أو بعدها. تُقرأ السمات العربية من اليمين إلى اليسار.',
   'TWO ANALYSIS METHODS': 'طريقتان للتحليل',
   'Explore your texts with HC and PCA.': 'استكشف نصوصك بالتجميع الهرمي وتحليل المكونات الرئيسية.',
   'Choose a method to explore the same samples from a different perspective.': 'اختر طريقة لاستكشاف العينات نفسها من منظور مختلف.',
@@ -79,7 +80,9 @@ const arabic = {
   'We make this tool available to researchers to analyse texts from these historical periods and enrich the field through further scholarly research. If you use it in a research paper, please cite it in the text and include it in your reference list using the format below.': 'نُتيح هذه الأداة للباحثين لاستخدامها في تحليل النصوص المنتمية إلى هذه الحقب التاريخية، إسهامًا في إثراء المجال بمزيد من الأبحاث العلمية. وعند استخدامها في ورقة علمية، يُرجى الاستشهاد بها في متن البحث وإدراجها في قائمة المراجع وفق الصيغة الآتية.',
   'EXPLAINER VIDEO': 'الفيديو التوضيحي',
   'The Holy Quran and the challenge to poets — hierarchical clustering': 'القرآن الكريم وتحدي الشعراء — خوارزمية التجميع الهرمي',
-  'Watch the Arabic explainer, then explore the text comparisons in the experiment lab below.': 'شاهد الشرح باللغة العربية، ثم استكشف مقارنة النصوص في مختبر التجربة أدناه.',
+  'Watch the explainer with English captions, then explore the text comparisons in the experiment lab below. Use the CC menu to turn captions on or off.': 'شاهد الشرح مع الترجمة الإنجليزية، ثم استكشف مقارنة النصوص في مختبر التجربة أدناه. استخدم قائمة CC لتشغيل الترجمة أو إيقافها.',
+  'Download video with English captions': 'تنزيل الفيديو مع الترجمة الإنجليزية',
+  'English subtitles (SRT)': 'الترجمة الإنجليزية (SRT)',
   'Open the video': 'فتح الفيديو',
   'Your browser does not support embedded video.': 'متصفحك لا يدعم عرض الفيديو داخل الصفحة.',
   'Stylometry Tool is an interactive research website for comparing Arabic poetry from different historical periods with the Quran. Comparisons use the historical folded spelling of the corpus. Feature frequencies, hierarchical clustering (HC), and principal component analysis (PCA) offer complementary views of the selected texts.': 'أداة القياس الأسلوبي موقع بحثي تفاعلي لمقارنة الشعر العربي من عصور مختلفة بالقرآن. تستخدم المقارنات تمثيل المدونة القديم الذي وُحّدت فيه الحروف. تقدّم تكرارات السمات والتجميع الهرمي (HC) وتحليل المكونات الرئيسية (PCA) رؤى متكاملة للنصوص المختارة.',
@@ -206,5 +209,12 @@ function applyStaticLanguage() {
   }
   for (const {node, key} of staticAttributes) node.setAttribute('aria-label', t(key));
   document.getElementById('language').value = language;
+  const englishCaptions = document.getElementById('explainer-english');
+  if (englishCaptions) {
+    englishCaptions.default = true;
+    englishCaptions.track.mode = 'showing';
+  }
+  const openVideo = document.getElementById('explainer-open');
+  if (openVideo) openVideo.href = '/media/explainer.en.mp4';
 }
 applyStaticLanguage();

@@ -81,7 +81,8 @@ html[dir=rtl] .site-header nav{margin-left:0;margin-right:auto}
 .explainer h2{max-width:900px;line-height:1.25}
 .explainer-player{display:block;width:100%;aspect-ratio:16/9;background:#152e27;border:1px solid var(--line);border-radius:6px;direction:ltr}
 .explainer-player:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
-.explainer>.text-link{display:inline-block;margin-top:14px}
+.explainer>.text-link{display:inline-block;margin-top:14px;margin-inline-end:24px}
+.explainer-player::cue{font-family:Arial,sans-serif;background:rgba(0,0,0,.85);color:white}
 @media(max-width:760px){.explainer{padding:30px 0}.explainer h2{font-size:30px}}
 
 .contact{border-top:1px solid var(--line);padding:38px 0 42px}
